@@ -103,11 +103,11 @@
         "shenSource": "shenSource"
       },
       "locked": {
-        "lastModified": 1638068936,
-        "narHash": "sha256-1nFkEn+pqY/Wq4qO3+261+CGEC6haLq0SmLPQKYbu9w=",
+        "lastModified": 1638070812,
+        "narHash": "sha256-R7mU3wVB62k5MKUaVCVPYrQYHt9Hb/Bvs0wjV9F4cvg=",
         "owner": "sajban",
         "repo": "aski",
-        "rev": "7836a24540598c562c9c7ca8b260eeda5ea2f428",
+        "rev": "9c9246c6c5542bef1472b40c67cae35aeed1f5fc",
         "type": "github"
       },
       "original": {
@@ -692,7 +692,7 @@
     "lispPrimitives": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-SFgHiEjXDurKofWMqA5+3QtkVstmguDLE4cOPe8CmMw=",
+        "narHash": "sha256-Gm1wSL2sH/pGQM/Bl6Qjlb9n1K9wKQoyAP1qHPVB8Tg=",
         "path": "./Primitives",
         "type": "path"
       },
@@ -1480,15 +1480,15 @@
     "sajban": {
       "flake": false,
       "locked": {
-        "lastModified": 1615179828,
-        "narHash": "sha256-pJNIbgbj0Gq1P5jVVEkXMpC6rketj026oi4pwt5JVQ4=",
-        "owner": "maisiliym",
+        "lastModified": 1638091225,
+        "narHash": "sha256-bSz2KWPmkFlfdrDv8vs1bj2Qq03oK8cDbNdaDFzkalk=",
+        "owner": "sajban",
         "repo": "sajban",
-        "rev": "ab4a21933a4495b54c11960b2beb94af28909763",
+        "rev": "ac43158bfd570611e1b9d7be350f744f4217a20f",
         "type": "github"
       },
       "original": {
-        "owner": "maisiliym",
+        "owner": "sajban",
         "repo": "sajban",
         "type": "github"
       }

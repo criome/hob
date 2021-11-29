@@ -357,7 +357,7 @@
     };
 
     sajban = {
-      url = github:maisiliym/sajban;
+      url = github:sajban/sajban;
       flake = false;
     };
 
