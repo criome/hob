@@ -78,6 +78,11 @@
 
     emacs-overlay.url = github:nix-community/emacs-overlay;
 
+    ement-el = {
+      url = github:maisiliym/ement.el/mein;
+      flake = false;
+    };
+
     express_line-nvim = {
       url = github:tjdevries/express_line.nvim;
       flake = false;

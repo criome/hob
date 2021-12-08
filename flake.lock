@@ -424,6 +424,23 @@
         "type": "github"
       }
     },
+    "ement-el": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1638940953,
+        "narHash": "sha256-ti5MzZkYHcG/7lATFFWVi8TDC7l6jU11RqwVS7vF7Ac=",
+        "owner": "maisiliym",
+        "repo": "ement.el",
+        "rev": "363dd2ef807ee31a45591f7f8eb5fdbd5a2edb0e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "maisiliym",
+        "ref": "mein",
+        "repo": "ement.el",
+        "type": "github"
+      }
+    },
     "express_line-nvim": {
       "flake": false,
       "locked": {
@@ -1451,6 +1468,7 @@
         "dunst": "dunst",
         "dwm-vim": "dwm-vim",
         "emacs-overlay": "emacs-overlay",
+        "ement-el": "ement-el",
         "express_line-nvim": "express_line-nvim",
         "fenix": "fenix",
         "flake-compat": "flake-compat",
