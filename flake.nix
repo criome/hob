@@ -228,7 +228,7 @@
     };
 
     nixpkgs = {
-      url = github:NixOS/nixpkgs/96606addcedb821d311c701788062b8864346838;
+      url = github:NixOS/nixpkgs/e09a539ccbb089769644ca3449e6e3dec946fbca;
     };
 
     nixpkgs-fmt = {
