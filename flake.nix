@@ -146,7 +146,7 @@
     };
 
     home-manager = {
-      url = github:nix-community/home-manager/f9ef6f3dd0af40bbc3d6fc4b95619b2fe71f8be2;
+      url = github:nix-community/home-manager;
       flake = false;
     };
 
