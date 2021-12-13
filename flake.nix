@@ -56,11 +56,6 @@
       flake = false;
     };
 
-    cyclone = {
-      url = github:justinethier/cyclone;
-      flake = false;
-    };
-
     dino = {
       url = github:dino/dino;
       flake = false;
@@ -107,11 +102,6 @@
 
     FTerm-nvim = {
       url = github:numToStr/FTerm.nvim;
-      flake = false;
-    };
-
-    fzf = {
-      url = github:junegunn/fzf;
       flake = false;
     };
 
