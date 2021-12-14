@@ -6,63 +6,13 @@
       url = github:sajban/aski;
     };
 
-    alacritty = {
-      url = github:alacritty/alacritty;
-      flake = false;
-    };
-
     astronauta-nvim = {
       url = github:tjdevries/astronauta.nvim;
       flake = false;
     };
 
-    barbar-nvim = {
-      url = github:romgrk/barbar.nvim;
-      flake = false;
-    };
-
-    beacon-nvim = {
-      url = github:DanilaMihailov/beacon.nvim;
-      flake = false;
-    };
-
-    base16-alacritty = {
-      url = github:aaron-williamson/base16-alacritty;
-      flake = false;
-    };
-
-    bufferize-vim = {
-      url = github:AndrewRadev/bufferize.vim;
-      flake = false;
-    };
-
-    BufOnly-nvim = {
-      url = github:numToStr/BufOnly.nvim;
-      flake = false;
-    };
-
-    completion-nvim = {
-      url = github:nvim-lua/completion-nvim;
-      flake = false;
-    };
-
-    completion-buffers = {
-      url = github:steelsojka/completion-buffers;
-      flake = false;
-    };
-
     crate2nix = {
       url = github:kolloch/crate2nix;
-      flake = false;
-    };
-
-    cyclone = {
-      url = github:justinethier/cyclone;
-      flake = false;
-    };
-
-    dino = {
-      url = github:dino/dino;
       flake = false;
     };
 
@@ -100,48 +50,8 @@
 
     flake-utils.url = github:numtide/flake-utils;
 
-    formatter-nvim = {
-      url = github:mhartington/formatter.nvim;
-      flake = false;
-    };
-
     FTerm-nvim = {
       url = github:numToStr/FTerm.nvim;
-      flake = false;
-    };
-
-    fzf = {
-      url = github:junegunn/fzf;
-      flake = false;
-    };
-
-    fzf-lsp-nvim = {
-      url = github:gfanto/fzf-lsp.nvim;
-      flake = false;
-    };
-
-    fzf-vim = {
-      url = github:junegunn/fzf.vim;
-      flake = false;
-    };
-
-    galaxyline-nvim = {
-      url = github:glepnir/galaxyline.nvim;
-      flake = false;
-    };
-
-    gina-vim = {
-      url = github:lambdalisue/gina.vim;
-      flake = false;
-    };
-
-    gitsigns-nvim = {
-      url = github:lewis6991/gitsigns.nvim;
-      flake = false;
-    };
-
-    guile-vim = {
-      url = github:HiPhish/guile.vim;
       flake = false;
     };
 
@@ -150,18 +60,8 @@
       flake = false;
     };
 
-    hop-nvim = {
-      url = github:phaazon/hop.nvim;
-      flake = false;
-    };
-
     kibord = {
       url = github:maisiliym/kibord;
-    };
-
-    kommentary = {
-      url = github:b3nj5m1n/kommentary;
-      flake = false;
     };
 
     librem5-flash-image = {
@@ -169,31 +69,6 @@
       host = "source.puri.sm";
       owner = "Librem5";
       repo = "librem5-flash-image";
-      flake = false;
-    };
-
-    lowdown = {
-      url = github:kristapsdz/lowdown;
-      flake = false;
-    };
-
-    lspsaga-nvim = {
-      url = github:glepnir/lspsaga.nvim;
-      flake = false;
-    };
-
-    lsp-status-nvim = {
-      url = github:nvim-lua/lsp-status.nvim;
-      flake = false;
-    };
-
-    LuaFormatter = {
-      url = github:Koihik/LuaFormatter;
-      flake = false;
-    };
-
-    lua-language-server = {
-      url = github:sumneko/lua-language-server;
       flake = false;
     };
 
@@ -217,11 +92,6 @@
       flake = false;
     };
 
-    neovim = {
-      url = github:neovim/neovim;
-      flake = false;
-    };
-
     nix = {
       url = github:/NixOS/nix;
       inputs.nixpkgs.follows = "nixpkgs";
@@ -231,18 +101,8 @@
       url = github:NixOS/nixpkgs/96606addcedb821d311c701788062b8864346838;
     };
 
-    nixpkgs-fmt = {
-      url = github:nix-community/nixpkgs-fmt;
-      flake = false;
-    };
-
     nixpkgs-mozilla = {
       url = github:mozilla/nixpkgs-mozilla;
-      flake = false;
-    };
-
-    nvim-autopairs = {
-      url = github:windwp/nvim-autopairs;
       flake = false;
     };
 
@@ -251,93 +111,8 @@
       flake = false;
     };
 
-    nvim-bufferline-lua = {
-      url = github:akinsho/nvim-bufferline.lua;
-      flake = false;
-    };
-
-    nvim-colorizer-lua = {
-      url = github:norcalli/nvim-colorizer.lua;
-      flake = false;
-    };
-
     nvim-cursorline = {
       url = github:yamatsum/nvim-cursorline;
-      flake = false;
-    };
-
-    nvim-fzf = {
-      url = github:vijaymarupudi/nvim-fzf;
-      flake = false;
-    };
-
-    nvim-fzf-commands = {
-      url = github:vijaymarupudi/nvim-fzf-commands;
-      flake = false;
-    };
-
-    nvim-lazygit = {
-      url = github:kdheepak/lazygit.nvim;
-      flake = false;
-    };
-
-    nvim-lspconfig = {
-      url = github:neovim/nvim-lspconfig;
-      flake = false;
-    };
-
-    nvim-lspfuzzy = {
-      url = github:ojroques/nvim-lspfuzzy;
-      flake = false;
-    };
-
-    nvim-treesitter = {
-      url = github:nvim-treesitter/nvim-treesitter;
-      flake = false;
-    };
-
-    nvim-treesitter-context = {
-      url = github:romgrk/nvim-treesitter-context;
-      flake = false;
-    };
-
-    nvim-treesitter-refactor = {
-      url = github:nvim-treesitter/nvim-treesitter-refactor;
-      flake = false;
-    };
-
-    nvim-treesitter-textobjects = {
-      url = github:nvim-treesitter/nvim-treesitter-textobjects;
-      flake = false;
-    };
-
-    nvim-tree-lua = {
-      url = github:kyazdani42/nvim-tree.lua;
-      flake = false;
-    };
-
-    nvim-web-devicons = {
-      url = github:kyazdani42/nvim-web-devicons;
-      flake = false;
-    };
-
-    lir-nvim = {
-      url = github:tamago324/lir.nvim;
-      flake = false;
-    };
-
-    neogit = {
-      url = github:TimUntersberger/neogit;
-      flake = false;
-    };
-
-    plenary-nvim = {
-      url = github:nvim-lua/plenary.nvim;
-      flake = false;
-    };
-
-    popup-nvim = {
-      url = github:nvim-lua/popup.nvim;
       flake = false;
     };
 
@@ -346,18 +121,8 @@
       flake = false;
     };
 
-    rnix-lsp = {
-      url = github:nix-community/rnix-lsp;
-      flake = false;
-    };
-
     ron-vim = {
       url = github:ron-rs/ron.vim;
-      flake = false;
-    };
-
-    rust-analyzer = {
-      url = github:rust-analyzer/rust-analyzer;
       flake = false;
     };
 
@@ -385,43 +150,13 @@
       url = github:maisiliym/skrips;
     };
 
-    telescope-nvim = {
-      url = github:nvim-lua/telescope.nvim;
-      flake = false;
-    };
-
     tokei-vim = {
       url = github:vmchale/tokei-vim;
       flake = false;
     };
 
-    tree-sitter = {
-      url = github:tree-sitter/tree-sitter;
-      flake = false;
-    };
-
-    tree-sitter-nix = {
-      url = github:cstrahan/tree-sitter-nix;
-      flake = false;
-    };
-
-    tree-sitter-rust = {
-      url = github:tree-sitter/tree-sitter-rust;
-      flake = false;
-    };
-
     vim-shen = {
       url = github:nimaai/vim-shen;
-      flake = false;
-    };
-
-    vim-visual-multi = {
-      url = github:mg979/vim-visual-multi;
-      flake = false;
-    };
-
-    zoxide = {
-      url = github:ajeetdsouza/zoxide;
       flake = false;
     };
 
