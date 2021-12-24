@@ -345,22 +345,6 @@
         "type": "github"
       }
     },
-    "cyclone": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1638410849,
-        "narHash": "sha256-I3GtvTGz9fPcIGXixKomYcR+Eh3h41x60wZCmB1vYlM=",
-        "owner": "justinethier",
-        "repo": "cyclone",
-        "rev": "6149ec02c752699a14bff4cd80e97a861e1acbd0",
-        "type": "github"
-      },
-      "original": {
-        "owner": "justinethier",
-        "repo": "cyclone",
-        "type": "github"
-      }
-    },
     "dino": {
       "flake": false,
       "locked": {
@@ -522,22 +506,6 @@
       "original": {
         "owner": "mhartington",
         "repo": "formatter.nvim",
-        "type": "github"
-      }
-    },
-    "fzf": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1639015512,
-        "narHash": "sha256-RQfbH7n3d+AhvBZ2k6ewnJDlobNSAf9GfZUXUrnH5Cs=",
-        "owner": "junegunn",
-        "repo": "fzf",
-        "rev": "176ee6910ffe40d9007ff9bc1b2720e3d729c48a",
-        "type": "github"
-      },
-      "original": {
-        "owner": "junegunn",
-        "repo": "fzf",
         "type": "github"
       }
     },
@@ -1462,7 +1430,6 @@
         "completion-buffers": "completion-buffers",
         "completion-nvim": "completion-nvim",
         "crate2nix": "crate2nix",
-        "cyclone": "cyclone",
         "dino": "dino",
         "dunst": "dunst",
         "dwm-vim": "dwm-vim",
@@ -1473,7 +1440,6 @@
         "flake-compat": "flake-compat",
         "flake-utils": "flake-utils",
         "formatter-nvim": "formatter-nvim",
-        "fzf": "fzf",
         "fzf-lsp-nvim": "fzf-lsp-nvim",
         "fzf-vim": "fzf-vim",
         "galaxyline-nvim": "galaxyline-nvim",
@@ -1534,6 +1500,7 @@
         "tree-sitter-rust": "tree-sitter-rust",
         "vim-shen": "vim-shen",
         "vim-visual-multi": "vim-visual-multi",
+        "xah-fly-keys": "xah-fly-keys",
         "zoxide": "zoxide",
         "zoxide-vim": "zoxide-vim"
       }
@@ -1792,6 +1759,22 @@
       "original": {
         "owner": "mg979",
         "repo": "vim-visual-multi",
+        "type": "github"
+      }
+    },
+    "xah-fly-keys": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1639174269,
+        "narHash": "sha256-RepjpGLyLHJ0AfmfMy3hoJ+vcleBGbZOoxNG5OrfZ0Q=",
+        "owner": "xahlee",
+        "repo": "xah-fly-keys",
+        "rev": "3c0792ccaa4e0de34e13c6627899d42bc61bef02",
+        "type": "github"
+      },
+      "original": {
+        "owner": "xahlee",
+        "repo": "xah-fly-keys",
         "type": "github"
       }
     },

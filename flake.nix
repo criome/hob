@@ -410,6 +410,11 @@
       flake = false;
     };
 
+    xah-fly-keys = {
+      url = github:xahlee/xah-fly-keys;
+      flake = false;
+    };
+
     zoxide = {
       url = github:ajeetdsouza/zoxide;
       flake = false;
