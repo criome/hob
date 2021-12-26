@@ -253,6 +253,22 @@
         "type": "github"
       }
     },
+    "base16-theme": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1627871365,
+        "narHash": "sha256-aW965K+aPJMH77EZT3K1mAyK08OUwodeCVhP2Adt3is=",
+        "owner": "league",
+        "repo": "base16-emacs",
+        "rev": "5d03125650167527b8c13e45cc088d4d6bab5407",
+        "type": "github"
+      },
+      "original": {
+        "owner": "league",
+        "repo": "base16-emacs",
+        "type": "github"
+      }
+    },
     "beacon-nvim": {
       "flake": false,
       "locked": {
@@ -1425,6 +1441,7 @@
         "astronauta-nvim": "astronauta-nvim",
         "barbar-nvim": "barbar-nvim",
         "base16-alacritty": "base16-alacritty",
+        "base16-theme": "base16-theme",
         "beacon-nvim": "beacon-nvim",
         "bufferize-vim": "bufferize-vim",
         "completion-buffers": "completion-buffers",

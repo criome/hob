@@ -21,6 +21,11 @@
       flake = false;
     };
 
+    base16-theme = {
+      url = github:league/base16-emacs;
+      flake = false;
+    };
+
     beacon-nvim = {
       url = github:DanilaMihailov/beacon.nvim;
       flake = false;
