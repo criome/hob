@@ -656,16 +656,17 @@
     "home-manager": {
       "flake": false,
       "locked": {
-        "lastModified": 1639329010,
-        "narHash": "sha256-k9OXwR06419/s0FAnRalUs24+8EI6GepGaatAXhBc+0=",
+        "lastModified": 1636568613,
+        "narHash": "sha256-ZtCQzKSdCQF8L99f6U3md1S27YMFV6m3JmOG8Nu7S6c=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "3d46c011d2cc2c9ca24d9b803e9daf156d9429ea",
+        "rev": "f9ef6f3dd0af40bbc3d6fc4b95619b2fe71f8be2",
         "type": "github"
       },
       "original": {
         "owner": "nix-community",
         "repo": "home-manager",
+        "rev": "f9ef6f3dd0af40bbc3d6fc4b95619b2fe71f8be2",
         "type": "github"
       }
     },
