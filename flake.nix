@@ -11,6 +11,11 @@
       flake = false;
     };
 
+    base16-theme = {
+      url = github:league/base16-emacs;
+      flake = false;
+    };
+
     crate2nix = {
       url = github:kolloch/crate2nix;
       flake = false;
@@ -56,7 +61,7 @@
     };
 
     home-manager = {
-      url = github:nix-community/home-manager/f9ef6f3dd0af40bbc3d6fc4b95619b2fe71f8be2;
+      url = github:maisiliym/home-manager/nixProfileCmd;
       flake = false;
     };
 
@@ -98,7 +103,7 @@
     };
 
     nixpkgs = {
-      url = github:NixOS/nixpkgs/96606addcedb821d311c701788062b8864346838;
+      url = github:NixOS/nixpkgs/e09a539ccbb089769644ca3449e6e3dec946fbca;
     };
 
     nixpkgs-mozilla = {
@@ -157,6 +162,11 @@
 
     vim-shen = {
       url = github:nimaai/vim-shen;
+      flake = false;
+    };
+
+    xah-fly-keys = {
+      url = github:xahlee/xah-fly-keys;
       flake = false;
     };
 
