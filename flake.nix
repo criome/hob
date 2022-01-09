@@ -155,6 +155,11 @@
       url = github:maisiliym/skrips;
     };
 
+    species-el = {
+      url = github:sajban/species.el;
+      flake = false;
+    };
+
     tokei-vim = {
       url = github:vmchale/tokei-vim;
       flake = false;

@@ -762,6 +762,7 @@
         "shen": "shen",
         "shen-mode": "shen-mode",
         "skrips": "skrips",
+        "species-el": "species-el",
         "tokei-vim": "tokei-vim",
         "vim-shen": "vim-shen",
         "xah-fly-keys": "xah-fly-keys",
@@ -862,6 +863,22 @@
       "original": {
         "owner": "maisiliym",
         "repo": "skrips",
+        "type": "github"
+      }
+    },
+    "species-el": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1641634832,
+        "narHash": "sha256-t1t2U8JojvPA3YxwnfGwrTS+SIsMtfWHz9sAf06nbQU=",
+        "owner": "sajban",
+        "repo": "species.el",
+        "rev": "4bd59648284f99950d2a0c43dcbcffb69a70e9e6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "sajban",
+        "repo": "species.el",
         "type": "github"
       }
     },
