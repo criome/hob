@@ -142,7 +142,7 @@
     };
 
     shen = {
-      url = github:maisiliym/shen;
+      url = github:sajban/aski/shen-clean;
       flake = false;
     };
 
