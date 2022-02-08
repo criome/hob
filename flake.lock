@@ -12,15 +12,15 @@
         "type": "path"
       }
     },
-    "AskiFleik": {
+    "AskiCoreFleik": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-hjqAEVuCrnt+7ph7TsvjovJEa/hodUc0K5guooIRBZE=",
-        "path": "./AskiFleik",
+        "narHash": "sha256-qOqDilUpjJVRGHaJqTIO2Y5eJaIQuGE0frZC9ZcZyNc=",
+        "path": "./AskiCoreFleik",
         "type": "path"
       },
       "original": {
-        "path": "./AskiFleik",
+        "path": "./AskiCoreFleik",
         "type": "path"
       }
     },
@@ -75,7 +75,7 @@
     "KLambdaBootstrap": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-4szc53KBAIZ58J51UV0GD669Fjeja0p2+3Q3UFOOFlY=",
+        "narHash": "sha256-DyXKsiIc/k5XQV9n6noxeL4MwycXFNfklgBpxDvue2s=",
         "path": "./KLambdaBootstrap",
         "type": "path"
       },
@@ -111,12 +111,24 @@
     "LispExtendedPrimitives": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-2m8AQvk1UwXq7gQhLDBGbj6PYYTSpO/rLqcYQktpmwA=",
+        "narHash": "sha256-NsHHXvXLTUtkAOTSuiIqf0Li4XG9cJSgWxmb8izi3Nc=",
         "path": "./LispExtendedPrimitives",
         "type": "path"
       },
       "original": {
         "path": "./LispExtendedPrimitives",
+        "type": "path"
+      }
+    },
+    "ShenAski": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-C3Pgicf/bhS5jcZRQtRb77q6cjJzWM8xXQRazAxdD4o=",
+        "path": "./ShenAski",
+        "type": "path"
+      },
+      "original": {
+        "path": "./ShenAski",
         "type": "path"
       }
     },
@@ -159,7 +171,7 @@
     "ShenExtended": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-tZGwo+YsB4g+3LVBhKaEGsCHOdYhQHmew7HI92MIsfg=",
+        "narHash": "sha256-6PB5YLGpNYOofIweQXEQMrraa1Csfze+wsvptyGq658=",
         "path": "./ShenExtended",
         "type": "path"
       },
@@ -183,7 +195,7 @@
     "ShenExtendedTests": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-YT24VUqVk2wfVM/nwo98L0DckwqY9KU9r59twrsA4Hc=",
+        "narHash": "sha256-9b0mPdxzcmyjfuMOVvjwd7/JCeikF8OGqDiKL4KApk0=",
         "path": "./ShenExtendedTests",
         "type": "path"
       },
@@ -195,11 +207,12 @@
     "aski": {
       "inputs": {
         "AskiCore": "AskiCore",
-        "AskiFleik": "AskiFleik",
+        "AskiCoreFleik": "AskiCoreFleik",
         "KLambdaBootstrap": "KLambdaBootstrap",
         "LispCore": "LispCore",
         "LispCorePrimitives": "LispCorePrimitives",
         "LispExtendedPrimitives": "LispExtendedPrimitives",
+        "ShenAski": "ShenAski",
         "ShenCore": "ShenCore",
         "ShenCoreBootstrap": "ShenCoreBootstrap",
         "ShenCoreTests": "ShenCoreTests",
@@ -208,11 +221,11 @@
         "ShenExtendedTests": "ShenExtendedTests"
       },
       "locked": {
-        "lastModified": 1643945744,
-        "narHash": "sha256-JUfadHuZ5Ue9fR/g8g+c7CSYvwyMU8jPbn021zKhre8=",
+        "lastModified": 1644286711,
+        "narHash": "sha256-alLJDVKiOYb4wsKQErrINZFOB0XLOvn0daYRMsGlizk=",
         "owner": "sajban",
         "repo": "aski",
-        "rev": "5f9c14a2e079fa858949f95d7c598c4d838ffaed",
+        "rev": "4681bee6180c17d89ada9dc8c919c74b69433884",
         "type": "github"
       },
       "original": {
