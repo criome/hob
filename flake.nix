@@ -48,6 +48,11 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    firn = {
+      url = github:maisiliym/firn/main;
+      flake = false;
+    };
+
     flake-compat = {
       url = github:edolstra/flake-compat;
       flake = false;
