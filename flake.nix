@@ -126,6 +126,11 @@
       flake = false;
     };
 
+    page-maisiliym-uniks = {
+      url = github:maisiliym/page.maisiliym.uniks;
+      flake = false;
+    };
+
     ql2nix = {
       url = github:SquircleSpace/ql2nix;
       flake = false;
@@ -162,6 +167,11 @@
 
     species-el = {
       url = github:sajban/species.el;
+      flake = false;
+    };
+
+    tera-mode = {
+      url = github:svavs/tera-mode;
       flake = false;
     };
 

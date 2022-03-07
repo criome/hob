@@ -386,15 +386,16 @@
     "firn": {
       "flake": false,
       "locked": {
-        "lastModified": 1646273978,
-        "narHash": "sha256-I/JEvE1g5rfT5TNTuIyybFtWbr3hAttbrmXiyhmSWxg=",
+        "lastModified": 1646303059,
+        "narHash": "sha256-Ds5h9kg+8QkoJRNbCEMHkrCS91Z9G4spM58DX2SeacU=",
         "owner": "maisiliym",
         "repo": "firn",
-        "rev": "2d714c3075128b3abbaa556f6c25374d3a6a0de0",
+        "rev": "546f2f4724297409be4beefec926c11456e96e4f",
         "type": "github"
       },
       "original": {
         "owner": "maisiliym",
+        "ref": "main",
         "repo": "firn",
         "type": "github"
       }
@@ -744,6 +745,22 @@
         "type": "github"
       }
     },
+    "page-maisiliym-uniks": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1646627294,
+        "narHash": "sha256-w5r7X7KoXGEexE3UzGUSjZCLRCS1zAnkAewhUEuo7GE=",
+        "owner": "maisiliym",
+        "repo": "page.maisiliym.uniks",
+        "rev": "98a89d9619937a3f2ac5666cc800722bbfa061af",
+        "type": "github"
+      },
+      "original": {
+        "owner": "maisiliym",
+        "repo": "page.maisiliym.uniks",
+        "type": "github"
+      }
+    },
     "printf": {
       "flake": false,
       "locked": {
@@ -853,6 +870,7 @@
         "nixpkgs-mozilla": "nixpkgs-mozilla",
         "nvim-base16-lua": "nvim-base16-lua",
         "nvim-cursorline": "nvim-cursorline",
+        "page-maisiliym-uniks": "page-maisiliym-uniks",
         "ql2nix": "ql2nix",
         "ron-vim": "ron-vim",
         "sajban": "sajban",
@@ -861,6 +879,7 @@
         "shen-mode": "shen-mode",
         "skrips": "skrips",
         "species-el": "species-el",
+        "tera-mode": "tera-mode",
         "tokei-vim": "tokei-vim",
         "vim-shen": "vim-shen",
         "xah-fly-keys": "xah-fly-keys",
@@ -978,6 +997,22 @@
       "original": {
         "owner": "sajban",
         "repo": "species.el",
+        "type": "github"
+      }
+    },
+    "tera-mode": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1643416559,
+        "narHash": "sha256-Zs2jzBiyuWZzwxRZvYp4yFdkyEbVTeiKCNJQWHr8uJI=",
+        "owner": "svavs",
+        "repo": "tera-mode",
+        "rev": "cfee718214825e9d461842f538b94372ea55771a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "svavs",
+        "repo": "tera-mode",
         "type": "github"
       }
     },
