@@ -126,6 +126,11 @@
       flake = false;
     };
 
+    page-bird-uniks = {
+      url = github:laif-zone/bird;
+      flake = false;
+    };
+
     page-maisiliym-uniks = {
       url = github:maisiliym/page.maisiliym.uniks;
       flake = false;
@@ -133,6 +138,11 @@
 
     ql2nix = {
       url = github:SquircleSpace/ql2nix;
+      flake = false;
+    };
+
+    reseter-css = {
+      url = github:resetercss/reseter.css;
       flake = false;
     };
 

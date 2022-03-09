@@ -745,6 +745,22 @@
         "type": "github"
       }
     },
+    "page-bird-uniks": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1646716783,
+        "narHash": "sha256-L4H38uuT2iZocNBq/qfu9rnKblCHEf11bDRVqXXyacs=",
+        "owner": "laif-zone",
+        "repo": "bird",
+        "rev": "d6fe512275a40bdc4aa25670127d22f6a2fb2e68",
+        "type": "github"
+      },
+      "original": {
+        "owner": "laif-zone",
+        "repo": "bird",
+        "type": "github"
+      }
+    },
     "page-maisiliym-uniks": {
       "flake": false,
       "locked": {
@@ -826,6 +842,22 @@
         "type": "github"
       }
     },
+    "reseter-css": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1638941869,
+        "narHash": "sha256-Co0rALTVN4rQfCHe2dAVWpSChRlZ/O0gxRR/vunzZsE=",
+        "owner": "resetercss",
+        "repo": "reseter.css",
+        "rev": "69e80080dbadcbfb812c068fc12ba6bad26b7b78",
+        "type": "github"
+      },
+      "original": {
+        "owner": "resetercss",
+        "repo": "reseter.css",
+        "type": "github"
+      }
+    },
     "ron-vim": {
       "flake": false,
       "locked": {
@@ -870,8 +902,10 @@
         "nixpkgs-mozilla": "nixpkgs-mozilla",
         "nvim-base16-lua": "nvim-base16-lua",
         "nvim-cursorline": "nvim-cursorline",
+        "page-bird-uniks": "page-bird-uniks",
         "page-maisiliym-uniks": "page-maisiliym-uniks",
         "ql2nix": "ql2nix",
+        "reseter-css": "reseter-css",
         "ron-vim": "ron-vim",
         "sajban": "sajban",
         "sbcl": "sbcl",
