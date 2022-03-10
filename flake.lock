@@ -250,6 +250,22 @@
         "type": "github"
       }
     },
+    "base16-styles": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1493578694,
+        "narHash": "sha256-cGezU4UofSHvx3ZeRU9JuV63jksxy0L9KzUO+uWfUt8=",
+        "owner": "samme",
+        "repo": "base16-styles",
+        "rev": "8db4f00ca9e5575ba52d98a204ee44a53e13d546",
+        "type": "github"
+      },
+      "original": {
+        "owner": "samme",
+        "repo": "base16-styles",
+        "type": "github"
+      }
+    },
     "base16-theme": {
       "flake": false,
       "locked": {
@@ -879,6 +895,7 @@
         "FTerm-nvim": "FTerm-nvim",
         "aski": "aski",
         "astronauta-nvim": "astronauta-nvim",
+        "base16-styles": "base16-styles",
         "base16-theme": "base16-theme",
         "crate2nix": "crate2nix",
         "dunst": "dunst",

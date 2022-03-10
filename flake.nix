@@ -11,6 +11,11 @@
       flake = false;
     };
 
+    base16-styles = {
+      url = github:samme/base16-styles;
+      flake = false;
+    };
+
     base16-theme = {
       url = github:league/base16-emacs;
       flake = false;
