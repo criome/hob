@@ -796,15 +796,16 @@
     "pnpm2nix": {
       "flake": false,
       "locked": {
-        "lastModified": 1594396611,
-        "narHash": "sha256-UXOUQ+2A89/zaxYhTHiRrRBU5exbUWrg+FoJYMcNwuI=",
-        "owner": "nix-community",
+        "lastModified": 1643819446,
+        "narHash": "sha256-FdP9KwevnpiG2a/qSDweFj9ovmCyGPpxr74DBcmkxcs=",
+        "owner": "LavaDesu",
         "repo": "pnpm2nix",
-        "rev": "f67be0925a91b92f54d99dbdead7a06920b979ac",
+        "rev": "cc84a5dbb74e5ac6ece88965e52a48e719d36a24",
         "type": "github"
       },
       "original": {
-        "owner": "nix-community",
+        "owner": "LavaDesu",
+        "ref": "next",
         "repo": "pnpm2nix",
         "type": "github"
       }

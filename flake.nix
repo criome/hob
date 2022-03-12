@@ -147,7 +147,7 @@
     };
 
     pnpm2nix = {
-      url = github:nix-community/pnpm2nix;
+      url = github:LavaDesu/pnpm2nix/next;
       flake = false;
     };
 
