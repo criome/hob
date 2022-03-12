@@ -141,6 +141,16 @@
       flake = false;
     };
 
+    postcss-scss = {
+      url = github:postcss/postcss-scss;
+      flake = false;
+    };
+
+    pnpm2nix = {
+      url = github:nix-community/pnpm2nix;
+      flake = false;
+    };
+
     ql2nix = {
       url = github:SquircleSpace/ql2nix;
       flake = false;
