@@ -131,6 +131,11 @@
       flake = false;
     };
 
+    org-remark = {
+      url = github:nobiot/org-remark;
+      flake = false;
+    };
+
     page-bird-uniks = {
       url = github:laif-zone/bird;
       flake = false;

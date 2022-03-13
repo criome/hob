@@ -761,6 +761,22 @@
         "type": "github"
       }
     },
+    "org-remark": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1647076105,
+        "narHash": "sha256-TuIHMWbCCS9aB6HVDupms+MJojdEgzEs2WY+9i0puxM=",
+        "owner": "nobiot",
+        "repo": "org-remark",
+        "rev": "e78cdff25edffc74bfe4c65f3a02777d454f6d96",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nobiot",
+        "repo": "org-remark",
+        "type": "github"
+      }
+    },
     "page-bird-uniks": {
       "flake": false,
       "locked": {
@@ -952,6 +968,7 @@
         "nixpkgs-mozilla": "nixpkgs-mozilla",
         "nvim-base16-lua": "nvim-base16-lua",
         "nvim-cursorline": "nvim-cursorline",
+        "org-remark": "org-remark",
         "page-bird-uniks": "page-bird-uniks",
         "page-maisiliym-uniks": "page-maisiliym-uniks",
         "pnpm2nix": "pnpm2nix",
