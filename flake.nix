@@ -112,9 +112,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    nixpkgs = {
-      url = github:NixOS/nixpkgs/e09a539ccbb089769644ca3449e6e3dec946fbca;
-    };
+    nixpkgs.url = github:NixOS/nixpkgs;
 
     nixpkgs-mozilla = {
       url = github:mozilla/nixpkgs-mozilla;
@@ -182,7 +180,7 @@
     };
 
     shen = {
-      url = github:sajban/aski/shen-clean;
+      url = github:sajban/shen;
       flake = false;
     };
 
