@@ -983,6 +983,7 @@
         "species-el": "species-el",
         "tera-mode": "tera-mode",
         "tokei-vim": "tokei-vim",
+        "toodoo-el": "toodoo-el",
         "vim-shen": "vim-shen",
         "xah-fly-keys": "xah-fly-keys",
         "zoxide-vim": "zoxide-vim"
@@ -1130,6 +1131,22 @@
       "original": {
         "owner": "vmchale",
         "repo": "tokei-vim",
+        "type": "github"
+      }
+    },
+    "toodoo-el": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1647324063,
+        "narHash": "sha256-qG93vX8TBd+4WIkAAciTknWrgX87XmNqkgPQCapXBwM=",
+        "owner": "ChanderG",
+        "repo": "toodoo.el",
+        "rev": "149a563863c2f728c5f903475dbce50547c51000",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ChanderG",
+        "repo": "toodoo.el",
         "type": "github"
       }
     },

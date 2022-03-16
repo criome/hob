@@ -198,6 +198,11 @@
       flake = false;
     };
 
+    toodoo-el = {
+      url = github:ChanderG/toodoo.el;
+      flake = false;
+    };
+
     tera-mode = {
       url = github:svavs/tera-mode;
       flake = false;
