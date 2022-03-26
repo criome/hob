@@ -348,16 +348,15 @@
     "ement-el": {
       "flake": false,
       "locked": {
-        "lastModified": 1639021354,
-        "narHash": "sha256-S2or0nN+Sbhb5UW+mthzzKQTmhHPXorlge0GfdfpeHM=",
-        "owner": "maisiliym",
+        "lastModified": 1648261977,
+        "narHash": "sha256-7igkb6h56VwTchU7l3poX0FFaLFyfSwKoXS7L/U9C2M=",
+        "owner": "alphapapa",
         "repo": "ement.el",
-        "rev": "50cee245580f792477190bb18e788ee5eb9f79cd",
+        "rev": "70c4d5346c5cd5d9796c59440675c80f0653c7a3",
         "type": "github"
       },
       "original": {
-        "owner": "maisiliym",
-        "ref": "mein",
+        "owner": "alphapapa",
         "repo": "ement.el",
         "type": "github"
       }

@@ -39,7 +39,7 @@
     emacs-overlay.url = github:nix-community/emacs-overlay;
 
     ement-el = {
-      url = github:maisiliym/ement.el/mein;
+      url = github:alphapapa/ement.el;
       flake = false;
     };
 
