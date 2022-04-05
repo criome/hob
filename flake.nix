@@ -2,10 +2,6 @@
   description = "hob - temporary bootstrap nix flake";
 
   inputs = {
-    aski = {
-      url = github:sajban/aski;
-    };
-
     astronauta-nvim = {
       url = github:tjdevries/astronauta.nvim;
       flake = false;
