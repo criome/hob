@@ -113,7 +113,7 @@
     };
 
     nix = {
-      url = github:/NixOS/nix;
+      url = github:/sajban/nix;
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
