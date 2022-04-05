@@ -809,11 +809,11 @@
         "reseter-css": "reseter-css",
         "ron-vim": "ron-vim",
         "sajban": "sajban",
-        "sbcl": "sbcl",
         "shen": "shen",
         "shen-mode": "shen-mode",
         "skrips": "skrips",
         "species-el": "species-el",
+        "staticSbcl": "staticSbcl",
         "tera-mode": "tera-mode",
         "tokei-vim": "tokei-vim",
         "toodoo-el": "toodoo-el",
@@ -852,23 +852,6 @@
       "original": {
         "owner": "sajban",
         "repo": "sajban",
-        "type": "github"
-      }
-    },
-    "sbcl": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1641230582,
-        "narHash": "sha256-If/Ps7u0v5CdTNkS0FHZpFg9kP7JjzpnuwnaQS0OkEI=",
-        "owner": "daewok",
-        "repo": "sbcl",
-        "rev": "cf151181ef34a8a08802611d51a0566b7a7aa1ec",
-        "type": "github"
-      },
-      "original": {
-        "owner": "daewok",
-        "ref": "static-executable-v2",
-        "repo": "sbcl",
         "type": "github"
       }
     },
@@ -932,6 +915,23 @@
       "original": {
         "owner": "sajban",
         "repo": "species.el",
+        "type": "github"
+      }
+    },
+    "staticSbcl": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1641230582,
+        "narHash": "sha256-If/Ps7u0v5CdTNkS0FHZpFg9kP7JjzpnuwnaQS0OkEI=",
+        "owner": "daewok",
+        "repo": "sbcl",
+        "rev": "cf151181ef34a8a08802611d51a0566b7a7aa1ec",
+        "type": "github"
+      },
+      "original": {
+        "owner": "daewok",
+        "ref": "static-executable-v2",
+        "repo": "sbcl",
         "type": "github"
       }
     },

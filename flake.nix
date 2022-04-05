@@ -175,7 +175,7 @@
       flake = false;
     };
 
-    sbcl = {
+    staticSbcl = {
       url = github:daewok/sbcl/static-executable-v2;
       flake = false;
     };
