@@ -448,11 +448,11 @@
     },
     "maisiliym": {
       "locked": {
-        "lastModified": 1649910280,
-        "narHash": "sha256-KFHmG6YRCllRE+Qojhz8Owbo8plAsIXLXSPHGqOs29c=",
+        "lastModified": 1649927397,
+        "narHash": "sha256-lCVjQV08Rz0UUw1/HmFgvvvDuxpdT/i9iAwtrK4quqc=",
         "owner": "maisiliym",
         "repo": "maisiliym",
-        "rev": "892f5db1bee1e9b3a397696033091a3b294bcc1c",
+        "rev": "a8ae105e5deb009b45dc302738d9c501ce5f1c9d",
         "type": "github"
       },
       "original": {
