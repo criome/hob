@@ -108,6 +108,11 @@
       flake = false;
     };
 
+    netresolve = {
+      url = github:crossdistro/netresolve;
+      flake = false;
+    };
+
     nix = {
       url = github:/sajban/nix;
       inputs.nixpkgs.follows = "nixpkgs";

@@ -493,6 +493,22 @@
         "type": "github"
       }
     },
+    "netresolve": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1643496191,
+        "narHash": "sha256-xv0kI6jeRO8wQVs7XhUZrwSTaCycyp2bVkoZ/aoBX8w=",
+        "owner": "crossdistro",
+        "repo": "netresolve",
+        "rev": "d40f1541447a99f4693e5f7d464720b31ee01351",
+        "type": "github"
+      },
+      "original": {
+        "owner": "crossdistro",
+        "repo": "netresolve",
+        "type": "github"
+      }
+    },
     "nix": {
       "inputs": {
         "lowdown-src": "lowdown-src",
@@ -795,6 +811,7 @@
         "maisiliym": "maisiliym",
         "mfgtools": "mfgtools",
         "naersk": "naersk",
+        "netresolve": "netresolve",
         "nix": "nix",
         "nixpkgs": "nixpkgs",
         "nixpkgs-mozilla": "nixpkgs-mozilla",
