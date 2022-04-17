@@ -118,7 +118,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    nixpkgs.url = github:NixOS/nixpkgs;
+    nixpkgs.url = github:sajban/nixpkgs/franticSwing;
 
     nixpkgs-mozilla = {
       url = github:mozilla/nixpkgs-mozilla;
