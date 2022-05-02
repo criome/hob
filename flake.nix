@@ -32,7 +32,10 @@
       flake = false;
     };
 
-    emacs-overlay.url = github:nix-community/emacs-overlay;
+    emacs-overlay = {
+      url = github:nix-community/emacs-overlay;
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
 
     ement-el = {
       url = github:alphapapa/ement.el;
@@ -67,7 +70,7 @@
     };
 
     home-manager = {
-      url = github:maisiliym/home-manager/nixProfileCmd;
+      url = github:nix-community/home-manager;
       flake = false;
     };
 
@@ -118,7 +121,8 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    nixpkgs.url = github:sajban/nixpkgs/franticSwing;
+    nixpkgs.url = github:sajban/nixpkgs/eclipticPlane;
+    nextNixpkgs.url = github:sajban/nixpkgs/simmeringBucket;
 
     nixpkgs-mozilla = {
       url = github:mozilla/nixpkgs-mozilla;
