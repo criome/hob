@@ -509,6 +509,22 @@
         "type": "github"
       }
     },
+    "nextNixpkgs": {
+      "locked": {
+        "lastModified": 1651483468,
+        "narHash": "sha256-sofQ8eHECs6QmaiSPdJU1d7jtKd4ngsS/HpKeBtEd1M=",
+        "owner": "sajban",
+        "repo": "nixpkgs",
+        "rev": "5441b2def7327f5b6340c79c61ad9b29ad0034c3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "sajban",
+        "ref": "eclipticPlane",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
     "nix": {
       "inputs": {
         "lowdown-src": "lowdown-src",
@@ -813,6 +829,7 @@
         "mfgtools": "mfgtools",
         "naersk": "naersk",
         "netresolve": "netresolve",
+        "nextNixpkgs": "nextNixpkgs",
         "nix": "nix",
         "nixpkgs": "nixpkgs",
         "nixpkgs-mozilla": "nixpkgs-mozilla",

@@ -119,6 +119,7 @@
     };
 
     nixpkgs.url = github:sajban/nixpkgs/franticSwing;
+    nextNixpkgs.url = github:sajban/nixpkgs/eclipticPlane;
 
     nixpkgs-mozilla = {
       url = github:mozilla/nixpkgs-mozilla;
