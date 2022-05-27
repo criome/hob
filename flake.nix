@@ -122,7 +122,7 @@
     };
 
     nixpkgs.url = github:sajban/nixpkgs/eclipticPlane;
-    nextNixpkgs.url = github:sajban/nixpkgs/simmeringBucket;
+    nextNixpkgs.url = github:sajban/nixpkgs/hangingGarden;
 
     nixpkgs-mozilla = {
       url = github:mozilla/nixpkgs-mozilla;
