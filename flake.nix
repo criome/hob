@@ -242,35 +242,9 @@
 
   outputs = inputs@ { self, ... }:
     let
-      inherit (builtins) mapAttrs removeAttrs getFlake
-        concatStringsSep;
-
-      optionalString = cond: string: if cond then string else "";
-
-      getFleik = fleik:
-        let
-          url = concatStringsSep "" [
-            (optionalString (fleik.type == "git") "git+")
-            fleik.url
-            "?"
-            (optionalString (fleik ? ref) "ref=${fleik.ref}")
-            (optionalString (fleik ? rev) "${optionalString (fleik ? ref) "&"}rev=${fleik.rev}")
-          ];
-          noFlakeNix = fleik ? flake && (!fleik.flake);
-          kol = if noFlakeNix then fetchTree else getFlake;
-        in
-        kol url;
-
-      meinIndeks = removeAttrs inputs [ "self" ];
-
-      forkIndeks = (import ./forkIndeks.nix) getFleik;
-
-      meikBrencyz = neim: fleik:
-        let forks = forkIndeks.${neim} or { };
-        in forks // { mein = fleik; };
-
-      ryzylt = mapAttrs meikBrencyz meinIndeks;
+      inherit (builtins) removeAttrs;
+      inputsMinusSelf = removeAttrs inputs [ "self" ];
 
     in
-    { Hob = ryzylt; };
+    { Hob = inputsMinusSelf; };
 }
