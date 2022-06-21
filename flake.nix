@@ -2,6 +2,11 @@
   description = "hob - temporary bootstrap nix flake";
 
   inputs = {
+    arcnmxNixexprs = {
+      url = github:arcnmx/nixexprs;
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
     astronauta-nvim = {
       url = github:tjdevries/astronauta.nvim;
       flake = false;
@@ -117,7 +122,7 @@
     };
 
     nix = {
-      url = github:/sajban/nix;
+      url = github:sajban/nix;
       inputs.nixpkgs.follows = "nixpkgs";
     };
 

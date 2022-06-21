@@ -48,6 +48,26 @@
         "type": "github"
       }
     },
+    "arcnmxNixexprs": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1654705662,
+        "narHash": "sha256-+vgMNuehEQqtXmtwq0w0sGDy8b6bShFiS2ZbBtUDw6k=",
+        "owner": "arcnmx",
+        "repo": "nixexprs",
+        "rev": "727f8eb7aaf542b675aaa9141a5027ccb961539e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "arcnmx",
+        "repo": "nixexprs",
+        "type": "github"
+      }
+    },
     "astronauta-nvim": {
       "flake": false,
       "locked": {
@@ -827,6 +847,7 @@
     "root": {
       "inputs": {
         "FTerm-nvim": "FTerm-nvim",
+        "arcnmxNixexprs": "arcnmxNixexprs",
         "astronauta-nvim": "astronauta-nvim",
         "base16-styles": "base16-styles",
         "base16-theme": "base16-theme",
