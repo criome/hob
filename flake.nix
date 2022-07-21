@@ -127,7 +127,7 @@
     };
 
     nixpkgs.url = github:sajban/nixpkgs/eclipticPlane;
-    nextNixpkgs.url = github:sajban/nixpkgs/simplerHob;
+    nextNixpkgs.url = github:sajban/nixpkgs/frameOfReference;
 
     nixpkgs-mozilla = {
       url = github:mozilla/nixpkgs-mozilla;
