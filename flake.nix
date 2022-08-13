@@ -40,6 +40,7 @@
     emacs-overlay = {
       url = github:nix-community/emacs-overlay;
       inputs.nixpkgs.follows = "nixpkgs";
+      inputs.flake-utils.follows = "flake-utils";
     };
 
     ement-el = {
@@ -76,7 +77,8 @@
 
     home-manager = {
       url = github:nix-community/home-manager;
-      flake = false;
+      inputs.nixpkgs.follows = "nixpkgs";
+      inputs.utils.follows = "flake-utils";
     };
 
     jujutsu = {
@@ -122,12 +124,12 @@
     };
 
     nix = {
-      url = github:sajban/nix;
+      url = github:NixOS/nix;
       inputs.nixpkgs.follows = "nixpkgs";
+      inputs.nixpkgs-regression.follows = "nixpkgs";
     };
 
-    nixpkgs.url = github:sajban/nixpkgs/eclipticPlane;
-    nextNixpkgs.url = github:sajban/nixpkgs/frameOfReference;
+    nixpkgs.url = github:sajban/nixpkgs/frameOfReference;
 
     nixpkgs-mozilla = {
       url = github:mozilla/nixpkgs-mozilla;
