@@ -929,11 +929,11 @@
     },
     "skrips": {
       "locked": {
-        "lastModified": 1635561914,
-        "narHash": "sha256-wgWoWDitbXwWwTUqyYUKg5qSdPxo4MVRKwFqCcX/bBU=",
+        "lastModified": 1661853840,
+        "narHash": "sha256-G+TwpW1M7/qFCmTG9MM/Zb5IQZ7FFx3kaQz+YEAZIyY=",
         "owner": "maisiliym",
         "repo": "skrips",
-        "rev": "90dd321650a52bab52460a7323b8af797cd1237b",
+        "rev": "3bfd66ab51930e63d9ecc51ff78616dbecb489c4",
         "type": "github"
       },
       "original": {
