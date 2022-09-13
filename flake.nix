@@ -7,11 +7,6 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    astronauta-nvim = {
-      url = github:tjdevries/astronauta.nvim;
-      flake = false;
-    };
-
     base16-styles = {
       url = github:samme/base16-styles;
       flake = false;
@@ -32,11 +27,6 @@
       flake = false;
     };
 
-    dwm-vim = {
-      url = github:spolu/dwm.vim;
-      flake = false;
-    };
-
     emacs-overlay = {
       url = github:nix-community/emacs-overlay;
       inputs.nixpkgs.follows = "nixpkgs";
@@ -45,11 +35,6 @@
 
     ement-el = {
       url = github:alphapapa/ement.el;
-      flake = false;
-    };
-
-    express_line-nvim = {
-      url = github:tjdevries/express_line.nvim;
       flake = false;
     };
 
@@ -70,20 +55,10 @@
 
     flake-utils.url = github:numtide/flake-utils;
 
-    FTerm-nvim = {
-      url = github:numToStr/FTerm.nvim;
-      flake = false;
-    };
-
     home-manager = {
       url = github:nix-community/home-manager;
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.utils.follows = "flake-utils";
-    };
-
-    jujutsu = {
-      url = github:maisiliym/jj;
-      inputs.nixpkgs.follows = "nixpkgs";
     };
 
     kibord = {
@@ -133,16 +108,6 @@
 
     nixpkgs-mozilla = {
       url = github:mozilla/nixpkgs-mozilla;
-      flake = false;
-    };
-
-    nvim-base16-lua = {
-      url = github:norcalli/nvim-base16.lua;
-      flake = false;
-    };
-
-    nvim-cursorline = {
-      url = github:yamatsum/nvim-cursorline;
       flake = false;
     };
 
@@ -210,11 +175,6 @@
       url = github:maisiliym/skrips;
     };
 
-    species-el = {
-      url = github:sajban/species.el;
-      flake = false;
-    };
-
     toodoo-el = {
       url = github:ChanderG/toodoo.el;
       flake = false;
@@ -225,26 +185,10 @@
       flake = false;
     };
 
-    tokei-vim = {
-      url = github:vmchale/tokei-vim;
-      flake = false;
-    };
-
-    vim-shen = {
-      url = github:nimaai/vim-shen;
-      flake = false;
-    };
-
     xah-fly-keys = {
       url = github:xahlee/xah-fly-keys;
       flake = false;
     };
-
-    zoxide-vim = {
-      url = github:nanotee/zoxide.vim;
-      flake = false;
-    };
-
   };
 
   outputs = inputs@ { self, ... }:
@@ -253,5 +197,7 @@
       inputsMinusSelf = removeAttrs inputs [ "self" ];
 
     in
-    { Hob = inputsMinusSelf; };
+    {
+      Hob = inputsMinusSelf;
+    };
 }
