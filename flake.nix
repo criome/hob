@@ -104,7 +104,7 @@
       inputs.nixpkgs-regression.follows = "nixpkgs";
     };
 
-    nixpkgs.url = github:sajban/nixpkgs/frameOfReference;
+    nixpkgs.url = github:sajban/nixpkgs/itsBedTime;
 
     nixpkgs-mozilla = {
       url = github:mozilla/nixpkgs-mozilla;
