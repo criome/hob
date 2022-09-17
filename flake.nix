@@ -76,7 +76,7 @@
     };
 
     home-manager = {
-      url = github:nix-community/home-manager;
+      url = github:sajban/home-manager/fix-pueue-empty-settings;
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.utils.follows = "flake-utils";
     };

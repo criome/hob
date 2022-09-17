@@ -330,15 +330,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1659978484,
-        "narHash": "sha256-VkErPc8pXcuFQG7jkkaUOEMORe81oweRNlAYZJ2+aRI=",
-        "owner": "nix-community",
+        "lastModified": 1663390131,
+        "narHash": "sha256-f+Fd320w4QIQfe7S2QhJc0VKQAfux1Q8N/g2Yi457u0=",
+        "owner": "sajban",
         "repo": "home-manager",
-        "rev": "c1addfdad3825f75a66f8d73ec7d2f68c78ba6f8",
+        "rev": "94b928dc7ab6dea3fef5e04cde6deac439a5e638",
         "type": "github"
       },
       "original": {
-        "owner": "nix-community",
+        "owner": "sajban",
+        "ref": "fix-pueue-empty-settings",
         "repo": "home-manager",
         "type": "github"
       }
@@ -482,11 +483,11 @@
     },
     "maisiliym": {
       "locked": {
-        "lastModified": 1663054556,
-        "narHash": "sha256-JIR/joGbk+cf5TYy03Hv0y/SiCqEGJdAeQ8jBqisjmA=",
+        "lastModified": 1663386058,
+        "narHash": "sha256-zD9pCStI+QxlZr9zEnBBJmAvFH2WHUmqbfm+3XUm7GI=",
         "owner": "maisiliym",
         "repo": "maisiliym",
-        "rev": "08ac6880f43f218d201e4cb2f6e018e3cf0d31b3",
+        "rev": "4d1ebb41c49cc628a1331bf8a5019fae5381c061",
         "type": "github"
       },
       "original": {
