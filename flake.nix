@@ -55,6 +55,8 @@
 
     flake-utils.url = github:numtide/flake-utils;
 
+    goldragon.url = github:LiGoldragon/goldragon;
+
     home-manager = {
       url = github:sajban/home-manager/fix-pueue-empty-settings;
       inputs.nixpkgs.follows = "nixpkgs";
@@ -134,6 +136,12 @@
     pnpm2nix = {
       url = github:LavaDesu/pnpm2nix/next;
       flake = false;
+    };
+
+    pueue-el = {
+      url = github:xFA25E/pueue;
+      inputs.nixpkgs.follows = "nixpkgs";
+      inputs.emacs-overlay.follows = "emacs-overlay";
     };
 
     ql2nix = {
