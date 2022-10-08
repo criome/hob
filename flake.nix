@@ -76,7 +76,7 @@
     };
 
     maisiliym = {
-      url = github:maisiliym/maisiliym;
+      url = github:LiGoldragon/maisiliym;
     };
 
     mach-nix = {
