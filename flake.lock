@@ -256,6 +256,21 @@
         "type": "github"
       }
     },
+    "goldragonWebpage": {
+      "locked": {
+        "lastModified": 1665622183,
+        "narHash": "sha256-Esw/irj7DNqzTdlCnxVNAoqW4i0syNb8+8yH4P9WwkU=",
+        "owner": "LiGoldragon",
+        "repo": "webpage",
+        "rev": "3974181540280e54121c1f4c02a7746909ace844",
+        "type": "github"
+      },
+      "original": {
+        "owner": "LiGoldragon",
+        "repo": "webpage",
+        "type": "github"
+      }
+    },
     "googletest": {
       "flake": false,
       "locked": {
@@ -431,11 +446,11 @@
     },
     "maisiliym": {
       "locked": {
-        "lastModified": 1665205857,
-        "narHash": "sha256-ifD69qYM78p3axBSMv7ECFsTEl5CcYon7hdw3OsYpyA=",
+        "lastModified": 1665619587,
+        "narHash": "sha256-sQ+jK0oT8dyxkVjA+CcxNUSpMCkx5+3x5PtwAl+jrlA=",
         "owner": "LiGoldragon",
         "repo": "maisiliym",
-        "rev": "f5de49b6c6b2fd9ceecdf1c3354894af2080dcac",
+        "rev": "a2d15b196de0d5658eb9b7e8141080100c9d0b05",
         "type": "github"
       },
       "original": {
@@ -764,6 +779,7 @@
         "flake-compat": "flake-compat",
         "flake-utils": "flake-utils",
         "goldragon": "goldragon",
+        "goldragonWebpage": "goldragonWebpage",
         "home-manager": "home-manager",
         "kibord": "kibord",
         "librem5-flash-image": "librem5-flash-image",

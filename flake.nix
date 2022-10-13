@@ -56,6 +56,7 @@
     flake-utils.url = github:numtide/flake-utils;
 
     goldragon.url = github:LiGoldragon/goldragon;
+    goldragonWebpage.url = github:LiGoldragon/webpage;
 
     home-manager = {
       url = github:sajban/home-manager/fix-pueue-empty-settings;
