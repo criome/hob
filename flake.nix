@@ -114,6 +114,11 @@
       flake = false;
     };
 
+    open-color = {
+      url = github:yeun/open-color;
+      flake = false;
+    };
+
     org-remark = {
       url = github:nobiot/org-remark;
       flake = false;

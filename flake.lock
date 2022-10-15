@@ -563,6 +563,22 @@
         "type": "github"
       }
     },
+    "open-color": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1629218875,
+        "narHash": "sha256-wOhDbE3yS9ZSJnHdBd5ySDksyWXqjqdvZ3V5jWAFSZ0=",
+        "owner": "yeun",
+        "repo": "open-color",
+        "rev": "0180ac6a4cbff62c5f9bb23d9dd6b1559d5f8c46",
+        "type": "github"
+      },
+      "original": {
+        "owner": "yeun",
+        "repo": "open-color",
+        "type": "github"
+      }
+    },
     "org-remark": {
       "flake": false,
       "locked": {
@@ -791,6 +807,7 @@
         "nix": "nix",
         "nixpkgs": "nixpkgs",
         "nixpkgs-mozilla": "nixpkgs-mozilla",
+        "open-color": "open-color",
         "org-remark": "org-remark",
         "page-bird-uniks": "page-bird-uniks",
         "page-maisiliym-uniks": "page-maisiliym-uniks",
