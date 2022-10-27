@@ -56,7 +56,11 @@
     flake-utils.url = github:numtide/flake-utils;
 
     goldragon.url = github:LiGoldragon/goldragon;
-    goldragonWebpage.url = github:LiGoldragon/webpage;
+
+    goldragonWebpage = {
+      url = github:LiGoldragon/webpage;
+      flake = false;
+    };
 
     home-manager = {
       url = github:sajban/home-manager/fix-pueue-empty-settings;
@@ -90,6 +94,8 @@
       url = github:NXPmicro/mfgtools;
       flake = false;
     };
+
+    mkZolaWebsite.url = github:sajban/mkZolaWebsite;
 
     naersk = {
       url = github:nmattia/naersk;
