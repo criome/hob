@@ -475,6 +475,21 @@
         "type": "github"
       }
     },
+    "mkZolaWebsite": {
+      "locked": {
+        "lastModified": 1667284711,
+        "narHash": "sha256-4U5b+VrV51VCfnrokIrbiAQiZeIyQSE+fZPeTg/6ETs=",
+        "owner": "sajban",
+        "repo": "mkZolaWebsite",
+        "rev": "2d6329c9c886b3708944afbc9a9877079b86f52d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "sajban",
+        "repo": "mkZolaWebsite",
+        "type": "github"
+      }
+    },
     "naersk": {
       "flake": false,
       "locked": {
@@ -802,6 +817,7 @@
         "mach-nix": "mach-nix",
         "maisiliym": "maisiliym",
         "mfgtools": "mfgtools",
+        "mkZolaWebsite": "mkZolaWebsite",
         "naersk": "naersk",
         "netresolve": "netresolve",
         "nix": "nix",
@@ -818,6 +834,8 @@
         "reseter-css": "reseter-css",
         "ron-vim": "ron-vim",
         "sajban": "sajban",
+        "seahawk": "seahawk",
+        "seahawkWebsite": "seahawkWebsite",
         "shen": "shen",
         "shen-mode": "shen-mode",
         "skrips": "skrips",
@@ -857,6 +875,37 @@
       "original": {
         "owner": "sajban",
         "repo": "sajban",
+        "type": "github"
+      }
+    },
+    "seahawk": {
+      "locked": {
+        "lastModified": 1667373205,
+        "narHash": "sha256-6Uk1fgv0p8bTdnTPqBAoFHvfHkE6DiITRlpPuHJqacs=",
+        "owner": "sajban",
+        "repo": "seahawk",
+        "rev": "b0da7be1ab2eee592db9de192288b8dc2850dd3a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "sajban",
+        "repo": "seahawk",
+        "type": "github"
+      }
+    },
+    "seahawkWebsite": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1667372545,
+        "narHash": "sha256-UgsZoRhoCNXm+IVJd/X3WHMMhPqNnB7shiMZIM5u8uA=",
+        "owner": "AnaSeahawk",
+        "repo": "website",
+        "rev": "eda73662fdcdf3feec199ef6ea98458eda2bfc8a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "AnaSeahawk",
+        "repo": "website",
         "type": "github"
       }
     },

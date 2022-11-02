@@ -176,6 +176,13 @@
       flake = false;
     };
 
+    seahawk.url = github:sajban/seahawk;
+
+    seahawkWebsite = {
+      url = github:AnaSeahawk/website;
+      flake = false;
+    };
+
     staticSbcl = {
       url = github:daewok/sbcl/static-executable-v2;
       flake = false;
