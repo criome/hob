@@ -72,6 +72,8 @@
       url = github:maisiliym/kibord;
     };
 
+    kriomWebsite.url = github:sajban/website;
+
     librem5-flash-image = {
       type = "gitlab";
       host = "source.puri.sm";
