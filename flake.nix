@@ -17,6 +17,11 @@
       flake = false;
     };
 
+    buttons = {
+      url = github:alexwolfe/Buttons;
+      flake = false;
+    };
+
     crate2nix = {
       url = github:kolloch/crate2nix;
       flake = false;

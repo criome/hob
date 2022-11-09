@@ -84,6 +84,22 @@
         "type": "github"
       }
     },
+    "buttons": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1507310801,
+        "narHash": "sha256-upJBWx3iMVM7i8vjTbzc2g9uTgoWo3q8W1MQzPyLuho=",
+        "owner": "alexwolfe",
+        "repo": "Buttons",
+        "rev": "0a91b65bc9e3a8bbbefbe1af20047dabed0d742e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "alexwolfe",
+        "repo": "Buttons",
+        "type": "github"
+      }
+    },
     "crate2nix": {
       "flake": false,
       "locked": {
@@ -816,6 +832,7 @@
         "arcnmxNixexprs": "arcnmxNixexprs",
         "base16-styles": "base16-styles",
         "base16-theme": "base16-theme",
+        "buttons": "buttons",
         "crate2nix": "crate2nix",
         "dunst": "dunst",
         "emacs-overlay": "emacs-overlay",
