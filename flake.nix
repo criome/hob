@@ -120,7 +120,7 @@
       inputs.nixpkgs-regression.follows = "nixpkgs";
     };
 
-    nixpkgs.url = github:sajban/nixpkgs/itsBedTime;
+    nixpkgs.url = github:sajban/nixpkgs/flamingArrow;
 
     nixpkgs-mozilla = {
       url = github:mozilla/nixpkgs-mozilla;
