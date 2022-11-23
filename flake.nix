@@ -7,6 +7,8 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    aski.url = github:sajban/aski;
+
     base16-styles = {
       url = github:samme/base16-styles;
       flake = false;

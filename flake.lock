@@ -1,5 +1,70 @@
 {
   "nodes": {
+    "AskiCore": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1,
+        "narHash": "sha256-ZLyzoJbXHpV/z9rYycbCSVZvdi8yCoHUXz2P9ALVZ0I=",
+        "path": "./AskiCore",
+        "type": "path"
+      },
+      "original": {
+        "path": "./AskiCore",
+        "type": "path"
+      }
+    },
+    "AskiCoreFleik": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1,
+        "narHash": "sha256-qOqDilUpjJVRGHaJqTIO2Y5eJaIQuGE0frZC9ZcZyNc=",
+        "path": "./AskiCoreFleik",
+        "type": "path"
+      },
+      "original": {
+        "path": "./AskiCoreFleik",
+        "type": "path"
+      }
+    },
+    "AskiCoreNiks": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1,
+        "narHash": "sha256-w0lewzQZ2ClGmTuarwscVi4qjIDL2mGXJ7aIP5QkLQU=",
+        "path": "./AskiCoreNiks",
+        "type": "path"
+      },
+      "original": {
+        "path": "./AskiCoreNiks",
+        "type": "path"
+      }
+    },
+    "AskiDefaultBuilder": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1,
+        "narHash": "sha256-dMQ4qUC2aFkZrM88zvxdiu/tdOOakETGTVOuL9/N2yI=",
+        "path": "./AskiDefaultBuilder",
+        "type": "path"
+      },
+      "original": {
+        "path": "./AskiDefaultBuilder",
+        "type": "path"
+      }
+    },
+    "AskiNiks": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1,
+        "narHash": "sha256-Zpw5k0lpafxdko9NdW8Yyakghx1ijMnG1wS3FjyQZuM=",
+        "path": "./AskiNiks",
+        "type": "path"
+      },
+      "original": {
+        "path": "./AskiNiks",
+        "type": "path"
+      }
+    },
     "ChibiOS": {
       "flake": false,
       "locked": {
@@ -32,6 +97,149 @@
         "type": "github"
       }
     },
+    "KLambdaBootstrap": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1,
+        "narHash": "sha256-rusyGaan8eDqlEc7zmxMdYDoO4OKoPllC5juxP2qnko=",
+        "path": "./KLambdaBootstrap",
+        "type": "path"
+      },
+      "original": {
+        "path": "./KLambdaBootstrap",
+        "type": "path"
+      }
+    },
+    "LispCore": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1,
+        "narHash": "sha256-aebErJ/qYHaE/cdnWPwj3Kx3isN94bYKA8Jo//NJ42A=",
+        "path": "./LispCore",
+        "type": "path"
+      },
+      "original": {
+        "path": "./LispCore",
+        "type": "path"
+      }
+    },
+    "LispCorePrimitives": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1,
+        "narHash": "sha256-buCczYUZ0biupPUUYgc36PsVVetu9NbsuLWnYJJgR9M=",
+        "path": "./LispCorePrimitives",
+        "type": "path"
+      },
+      "original": {
+        "path": "./LispCorePrimitives",
+        "type": "path"
+      }
+    },
+    "LispExtendedPrimitives": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1,
+        "narHash": "sha256-NsHHXvXLTUtkAOTSuiIqf0Li4XG9cJSgWxmb8izi3Nc=",
+        "path": "./LispExtendedPrimitives",
+        "type": "path"
+      },
+      "original": {
+        "path": "./LispExtendedPrimitives",
+        "type": "path"
+      }
+    },
+    "ShenAski": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1,
+        "narHash": "sha256-Icqb70Hiz6P0lypMk1pFi9tc2u6vj6fV/kaqZeXLkYk=",
+        "path": "./ShenAski",
+        "type": "path"
+      },
+      "original": {
+        "path": "./ShenAski",
+        "type": "path"
+      }
+    },
+    "ShenCore": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1,
+        "narHash": "sha256-NNMP9dh4BTdPx4W8mnhTCDvCoVYUXnhDFFUHDYU/z1M=",
+        "path": "./ShenCore",
+        "type": "path"
+      },
+      "original": {
+        "path": "./ShenCore",
+        "type": "path"
+      }
+    },
+    "ShenCoreBootstrap": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1,
+        "narHash": "sha256-P6muYTBiw/wwqN5HE3BqBvkbYDpjZ/HRyZ7ME2TbCOY=",
+        "path": "./ShenCoreBootstrap",
+        "type": "path"
+      },
+      "original": {
+        "path": "./ShenCoreBootstrap",
+        "type": "path"
+      }
+    },
+    "ShenCoreTests": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1,
+        "narHash": "sha256-EbT8PfeWjkLIutpLuDQyLO9FiQyqP5i0BsvCo06zl7I=",
+        "path": "./ShenCoreTests",
+        "type": "path"
+      },
+      "original": {
+        "path": "./ShenCoreTests",
+        "type": "path"
+      }
+    },
+    "ShenExtended": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1,
+        "narHash": "sha256-0XpXnv70oWPwZ6F1qV5SjPjef7BfrvsnY1ED5kfmpUU=",
+        "path": "./ShenExtended",
+        "type": "path"
+      },
+      "original": {
+        "path": "./ShenExtended",
+        "type": "path"
+      }
+    },
+    "ShenExtendedBootstrap": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1,
+        "narHash": "sha256-s9GegX9q30AGIohEH4Q04wXzJi8krBiqE4XSgjs6UeY=",
+        "path": "./ShenExtendedBootstrap",
+        "type": "path"
+      },
+      "original": {
+        "path": "./ShenExtendedBootstrap",
+        "type": "path"
+      }
+    },
+    "ShenExtendedTests": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1,
+        "narHash": "sha256-9b0mPdxzcmyjfuMOVvjwd7/JCeikF8OGqDiKL4KApk0=",
+        "path": "./ShenExtendedTests",
+        "type": "path"
+      },
+      "original": {
+        "path": "./ShenExtendedTests",
+        "type": "path"
+      }
+    },
     "arcnmxNixexprs": {
       "inputs": {
         "nixpkgs": [
@@ -49,6 +257,39 @@
       "original": {
         "owner": "arcnmx",
         "repo": "nixexprs",
+        "type": "github"
+      }
+    },
+    "aski": {
+      "inputs": {
+        "AskiCore": "AskiCore",
+        "AskiCoreFleik": "AskiCoreFleik",
+        "AskiCoreNiks": "AskiCoreNiks",
+        "AskiDefaultBuilder": "AskiDefaultBuilder",
+        "AskiNiks": "AskiNiks",
+        "KLambdaBootstrap": "KLambdaBootstrap",
+        "LispCore": "LispCore",
+        "LispCorePrimitives": "LispCorePrimitives",
+        "LispExtendedPrimitives": "LispExtendedPrimitives",
+        "ShenAski": "ShenAski",
+        "ShenCore": "ShenCore",
+        "ShenCoreBootstrap": "ShenCoreBootstrap",
+        "ShenCoreTests": "ShenCoreTests",
+        "ShenExtended": "ShenExtended",
+        "ShenExtendedBootstrap": "ShenExtendedBootstrap",
+        "ShenExtendedTests": "ShenExtendedTests"
+      },
+      "locked": {
+        "lastModified": 1669181846,
+        "narHash": "sha256-no5uGzefOS/2WCxZ6t3pVIHRj4b6k1NC4qEgBxrT6N8=",
+        "owner": "sajban",
+        "repo": "aski",
+        "rev": "d8a71f3f98edeb49ac166721a494396cca5ea6c5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "sajban",
+        "repo": "aski",
         "type": "github"
       }
     },
@@ -830,6 +1071,7 @@
     "root": {
       "inputs": {
         "arcnmxNixexprs": "arcnmxNixexprs",
+        "aski": "aski",
         "base16-styles": "base16-styles",
         "base16-theme": "base16-theme",
         "buttons": "buttons",
