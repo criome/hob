@@ -122,7 +122,7 @@
       inputs.nixpkgs-regression.follows = "nixpkgs";
     };
 
-    nixpkgs.url = github:sajban/nixpkgs/flamingArrow;
+    nixpkgs.url = github:sajban/nixpkgs/4590da9d9c2c4d59ea10667124b0092b1e2a041a;
 
     nixpkgs-mozilla = {
       url = github:mozilla/nixpkgs-mozilla;
