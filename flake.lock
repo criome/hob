@@ -821,17 +821,17 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1670221321,
-        "narHash": "sha256-ijeztfb4eqmalFUnl848OGQcFpmCako3fSF1roseczY=",
+        "lastModified": 1670380641,
+        "narHash": "sha256-YNtScJZO5ETr3ZKlZksPJcUeX8zdo99aM64lnk/HTFo=",
         "owner": "sajban",
         "repo": "nixpkgs",
-        "rev": "4590da9d9c2c4d59ea10667124b0092b1e2a041a",
+        "rev": "786869fdec6d9f2b1cd3a65829873413719f2f1c",
         "type": "github"
       },
       "original": {
         "owner": "sajban",
+        "ref": "shotcut-22.10.25",
         "repo": "nixpkgs",
-        "rev": "4590da9d9c2c4d59ea10667124b0092b1e2a041a",
         "type": "github"
       }
     },
