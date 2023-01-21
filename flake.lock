@@ -498,6 +498,22 @@
         "type": "github"
       }
     },
+    "flowblade": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1673872214,
+        "narHash": "sha256-iRThuGRbu6OyVLGQ73gnlHsjcsiBy/mBRuAkWzHM4HI=",
+        "owner": "jliljebl",
+        "repo": "flowblade",
+        "rev": "1d0be060fbb1a7c75d7975cec21d44af264aa626",
+        "type": "github"
+      },
+      "original": {
+        "owner": "jliljebl",
+        "repo": "flowblade",
+        "type": "github"
+      }
+    },
     "goldragon": {
       "locked": {
         "lastModified": 1663666582,
@@ -729,6 +745,22 @@
       "original": {
         "owner": "LiGoldragon",
         "repo": "maisiliym",
+        "type": "github"
+      }
+    },
+    "md-roam": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1674131550,
+        "narHash": "sha256-0N3OVQ7WvFqYcZJWrVCEKkHhekbNnwnVQ13psQCiKQc=",
+        "owner": "nobiot",
+        "repo": "md-roam",
+        "rev": "7e072a376baf5a94bd06b5e31ec593651900370c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nobiot",
+        "repo": "md-roam",
         "type": "github"
       }
     },
@@ -1084,6 +1116,7 @@
         "firn": "firn",
         "flake-compat": "flake-compat",
         "flake-utils": "flake-utils",
+        "flowblade": "flowblade",
         "goldragon": "goldragon",
         "goldragonWebpage": "goldragonWebpage",
         "home-manager": "home-manager",
@@ -1092,6 +1125,7 @@
         "librem5-flash-image": "librem5-flash-image",
         "mach-nix": "mach-nix",
         "maisiliym": "maisiliym",
+        "md-roam": "md-roam",
         "mfgtools": "mfgtools",
         "mkZolaWebsite": "mkZolaWebsite",
         "naersk": "naersk",

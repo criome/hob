@@ -62,6 +62,11 @@
 
     flake-utils.url = github:numtide/flake-utils;
 
+    flowblade = {
+      url = github:jliljebl/flowblade;
+      flake = false;
+    };
+
     goldragon.url = github:LiGoldragon/goldragon;
 
     goldragonWebpage = {
@@ -97,6 +102,12 @@
       url = github:DavHau/mach-nix;
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.flake-utils.follows = "flake-utils";
+    };
+
+
+    md-roam = {
+      url = github:nobiot/md-roam;
+      flake = false;
     };
 
     mfgtools = {
