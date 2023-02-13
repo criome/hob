@@ -122,6 +122,11 @@
       flake = false;
     };
 
+    ndi = {
+      url = github:LiGoldragon/ndi;
+      flake = false;
+    };
+
     netresolve = {
       url = github:crossdistro/netresolve;
       flake = false;

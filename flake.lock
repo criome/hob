@@ -811,6 +811,22 @@
         "type": "github"
       }
     },
+    "ndi": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1676267248,
+        "narHash": "sha256-nYFbHkF50CRbDnUwxE4sEsrLPYNey6BhXmhHjtF5UYM=",
+        "owner": "LiGoldragon",
+        "repo": "ndi",
+        "rev": "a80bbdb7ca1ad6534c3c02f5c5e73b99ebd0d38a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "LiGoldragon",
+        "repo": "ndi",
+        "type": "github"
+      }
+    },
     "netresolve": {
       "flake": false,
       "locked": {
@@ -1129,6 +1145,7 @@
         "mfgtools": "mfgtools",
         "mkZolaWebsite": "mkZolaWebsite",
         "naersk": "naersk",
+        "ndi": "ndi",
         "netresolve": "netresolve",
         "nix": "nix",
         "nixpkgs": "nixpkgs",
