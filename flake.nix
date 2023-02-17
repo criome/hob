@@ -145,6 +145,8 @@
       flake = false;
     };
 
+    nvfetcher.url = github:berberman/nvfetcher;
+
     open-color = {
       url = github:yeun/open-color;
       flake = false;
