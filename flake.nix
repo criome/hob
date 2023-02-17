@@ -138,7 +138,7 @@
       inputs.nixpkgs-regression.follows = "nixpkgs";
     };
 
-    nixpkgs.url = github:sajban/nixpkgs/shotcut-22.10.25;
+    nixpkgs.url = github:NixOS/nixpkgs;
 
     nixpkgs-mozilla = {
       url = github:mozilla/nixpkgs-mozilla;
