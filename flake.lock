@@ -545,6 +545,22 @@
         "type": "github"
       }
     },
+    "gardevoir": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1677041499,
+        "narHash": "sha256-7kuN1XKuQb42MehCKJn8h0sjjvF3HlCVOtoXb06ZnSQ=",
+        "owner": "krshoss",
+        "repo": "gardevoir",
+        "rev": "efdb02270ad0ad86643b14320c3551f918f6affa",
+        "type": "github"
+      },
+      "original": {
+        "owner": "krshoss",
+        "repo": "gardevoir",
+        "type": "github"
+      }
+    },
     "goldragon": {
       "locked": {
         "lastModified": 1663666582,
@@ -1151,22 +1167,6 @@
         "type": "github"
       }
     },
-    "reseter-css": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1638941869,
-        "narHash": "sha256-Co0rALTVN4rQfCHe2dAVWpSChRlZ/O0gxRR/vunzZsE=",
-        "owner": "resetercss",
-        "repo": "reseter.css",
-        "rev": "69e80080dbadcbfb812c068fc12ba6bad26b7b78",
-        "type": "github"
-      },
-      "original": {
-        "owner": "resetercss",
-        "repo": "reseter.css",
-        "type": "github"
-      }
-    },
     "ron-vim": {
       "flake": false,
       "locked": {
@@ -1199,6 +1199,7 @@
         "flake-compat": "flake-compat",
         "flake-utils": "flake-utils",
         "flowblade": "flowblade",
+        "gardevoir": "gardevoir",
         "goldragon": "goldragon",
         "goldragonWebpage": "goldragonWebpage",
         "home-manager": "home-manager",
@@ -1225,7 +1226,6 @@
         "postcss-scss": "postcss-scss",
         "pueue-el": "pueue-el",
         "ql2nix": "ql2nix",
-        "reseter-css": "reseter-css",
         "ron-vim": "ron-vim",
         "sajban": "sajban",
         "seahawk": "seahawk",

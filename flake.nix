@@ -188,8 +188,8 @@
       flake = false;
     };
 
-    reseter-css = {
-      url = github:resetercss/reseter.css;
+    gardevoir = {
+      url = github:krshoss/gardevoir;
       flake = false;
     };
 
