@@ -499,6 +499,22 @@
         "type": "github"
       }
     },
+    "flake-registry": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1674218164,
+        "narHash": "sha256-oLNWhwrV252kiy2tGQwwJNKFR+iG0fjsw0GSE/XVTR8=",
+        "owner": "NixOS",
+        "repo": "flake-registry",
+        "rev": "507c028d8d189b6647592dfd10ee677578de45a1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "flake-registry",
+        "type": "github"
+      }
+    },
     "flake-utils": {
       "locked": {
         "lastModified": 1667395993,
@@ -1197,6 +1213,7 @@
         "fenix": "fenix",
         "firn": "firn",
         "flake-compat": "flake-compat",
+        "flake-registry": "flake-registry",
         "flake-utils": "flake-utils",
         "flowblade": "flowblade",
         "gardevoir": "gardevoir",
