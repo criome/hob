@@ -60,6 +60,11 @@
       flake = false;
     };
 
+    flake-registry = {
+      url = github:NixOS/flake-registry;
+      flake = false;
+    };
+
     flake-utils.url = github:numtide/flake-utils;
 
     flowblade = {
