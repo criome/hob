@@ -2,14 +2,12 @@
   description = "hob - temporary bootstrap nix flake";
 
   inputs = {
-    aski = {
-      url = github:sajban/aski;
+    arcnmxNixexprs = {
+      url = github:arcnmx/nixexprs;
+      inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    astronauta-nvim = {
-      url = github:tjdevries/astronauta.nvim;
-      flake = false;
-    };
+    aski.url = github:sajban/aski;
 
     base16-styles = {
       url = github:samme/base16-styles;
@@ -18,6 +16,11 @@
 
     base16-theme = {
       url = github:league/base16-emacs;
+      flake = false;
+    };
+
+    buttons = {
+      url = github:alexwolfe/Buttons;
       flake = false;
     };
 
@@ -31,20 +34,14 @@
       flake = false;
     };
 
-    dwm-vim = {
-      url = github:spolu/dwm.vim;
-      flake = false;
+    emacs-overlay = {
+      url = github:nix-community/emacs-overlay;
+      inputs.nixpkgs.follows = "nixpkgs";
+      inputs.flake-utils.follows = "flake-utils";
     };
-
-    emacs-overlay.url = github:nix-community/emacs-overlay;
 
     ement-el = {
-      url = github:maisiliym/ement.el/mein;
-      flake = false;
-    };
-
-    express_line-nvim = {
-      url = github:tjdevries/express_line.nvim;
+      url = github:alphapapa/ement.el;
       flake = false;
     };
 
@@ -63,16 +60,29 @@
       flake = false;
     };
 
+    flake-registry = {
+      url = github:NixOS/flake-registry;
+      flake = false;
+    };
+
     flake-utils.url = github:numtide/flake-utils;
 
-    FTerm-nvim = {
-      url = github:numToStr/FTerm.nvim;
+    flowblade = {
+      url = github:jliljebl/flowblade;
+      flake = false;
+    };
+
+    goldragon.url = github:LiGoldragon/goldragon;
+
+    goldragonWebpage = {
+      url = github:LiGoldragon/webpage;
       flake = false;
     };
 
     home-manager = {
-      url = github:maisiliym/home-manager/nixProfileCmd;
-      flake = false;
+      url = github:sajban/home-manager/fix-pueue-empty-settings;
+      inputs.nixpkgs.follows = "nixpkgs";
+      inputs.utils.follows = "flake-utils";
     };
 
     jujutsu = {
@@ -84,6 +94,8 @@
       url = github:maisiliym/kibord;
     };
 
+    kriomWebsite.url = github:sajban/website;
+
     librem5-flash-image = {
       type = "gitlab";
       host = "source.puri.sm";
@@ -93,7 +105,7 @@
     };
 
     maisiliym = {
-      url = github:maisiliym/maisiliym;
+      url = github:LiGoldragon/maisiliym;
     };
 
     mach-nix = {
@@ -102,37 +114,51 @@
       inputs.flake-utils.follows = "flake-utils";
     };
 
+
+    md-roam = {
+      url = github:nobiot/md-roam;
+      flake = false;
+    };
+
     mfgtools = {
       url = github:NXPmicro/mfgtools;
       flake = false;
     };
+
+    mkZolaWebsite.url = github:sajban/mkZolaWebsite;
 
     naersk = {
       url = github:nmattia/naersk;
       flake = false;
     };
 
-    nix = {
-      url = github:/NixOS/nix;
-      inputs.nixpkgs.follows = "nixpkgs";
+    ndi = {
+      url = github:LiGoldragon/ndi;
+      flake = false;
     };
 
-    nixpkgs = {
-      url = github:NixOS/nixpkgs/e09a539ccbb089769644ca3449e6e3dec946fbca;
+    netresolve = {
+      url = github:crossdistro/netresolve;
+      flake = false;
     };
+
+    nix = {
+      url = github:NixOS/nix;
+      inputs.nixpkgs.follows = "nixpkgs";
+      inputs.nixpkgs-regression.follows = "nixpkgs";
+    };
+
+    nixpkgs.url = github:NixOS/nixpkgs;
 
     nixpkgs-mozilla = {
       url = github:mozilla/nixpkgs-mozilla;
       flake = false;
     };
 
-    nvim-base16-lua = {
-      url = github:norcalli/nvim-base16.lua;
-      flake = false;
-    };
+    nvfetcher.url = github:berberman/nvfetcher;
 
-    nvim-cursorline = {
-      url = github:yamatsum/nvim-cursorline;
+    open-color = {
+      url = github:yeun/open-color;
       flake = false;
     };
 
@@ -161,13 +187,19 @@
       flake = false;
     };
 
+    pueue-el = {
+      url = github:xFA25E/pueue;
+      inputs.nixpkgs.follows = "nixpkgs";
+      inputs.emacs-overlay.follows = "emacs-overlay";
+    };
+
     ql2nix = {
       url = github:SquircleSpace/ql2nix;
       flake = false;
     };
 
-    reseter-css = {
-      url = github:resetercss/reseter.css;
+    gardevoir = {
+      url = github:krshoss/gardevoir;
       flake = false;
     };
 
@@ -181,13 +213,20 @@
       flake = false;
     };
 
-    sbcl = {
+    seahawk.url = github:sajban/seahawk;
+
+    seahawkWebsite = {
+      url = github:AnaSeahawk/website;
+      flake = false;
+    };
+
+    staticSbcl = {
       url = github:daewok/sbcl/static-executable-v2;
       flake = false;
     };
 
     shen = {
-      url = github:sajban/aski/shen-clean;
+      url = github:sajban/shen;
       flake = false;
     };
 
@@ -200,8 +239,8 @@
       url = github:maisiliym/skrips;
     };
 
-    species-el = {
-      url = github:sajban/species.el;
+    toodoo-el = {
+      url = github:ChanderG/toodoo.el;
       flake = false;
     };
 
@@ -210,13 +249,8 @@
       flake = false;
     };
 
-    tokei-vim = {
-      url = github:vmchale/tokei-vim;
-      flake = false;
-    };
-
-    vim-shen = {
-      url = github:nimaai/vim-shen;
+    videocut = {
+      url = github:kanehekili/VideoCut;
       flake = false;
     };
 
@@ -224,45 +258,15 @@
       url = github:xahlee/xah-fly-keys;
       flake = false;
     };
-
-    zoxide-vim = {
-      url = github:nanotee/zoxide.vim;
-      flake = false;
-    };
-
   };
 
   outputs = inputs@ { self, ... }:
     let
-      inherit (builtins) mapAttrs removeAttrs getFlake
-        concatStringsSep;
-
-      optionalString = cond: string: if cond then string else "";
-
-      getFleik = fleik:
-        let
-          url = concatStringsSep "" [
-            (optionalString (fleik.type == "git") "git+")
-            fleik.url
-            "?"
-            (optionalString (fleik ? ref) "ref=${fleik.ref}")
-            (optionalString (fleik ? rev) "${optionalString (fleik ? ref) "&"}rev=${fleik.rev}")
-          ];
-          noFlakeNix = fleik ? flake && (!fleik.flake);
-          kol = if noFlakeNix then fetchTree else getFlake;
-        in
-        kol url;
-
-      meinIndeks = removeAttrs inputs [ "self" ];
-
-      forkIndeks = (import ./forkIndeks.nix) getFleik;
-
-      meikBrencyz = neim: fleik:
-        let forks = forkIndeks.${neim} or { };
-        in forks // { mein = fleik; };
-
-      ryzylt = mapAttrs meikBrencyz meinIndeks;
+      inherit (builtins) removeAttrs;
+      inputsMinusSelf = removeAttrs inputs [ "self" ];
 
     in
-    { Hob = ryzylt; };
+    {
+      Hob = inputsMinusSelf;
+    };
 }
