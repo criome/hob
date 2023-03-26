@@ -85,11 +85,6 @@
       inputs.utils.follows = "flake-utils";
     };
 
-    jujutsu = {
-      url = github:martinvonz/jj;
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-
     kibord = {
       url = github:maisiliym/kibord;
     };
