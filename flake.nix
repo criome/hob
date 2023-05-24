@@ -157,6 +157,11 @@
       flake = false;
     };
 
+    obs-StreamFX = {
+      url = github:nobiot/org-remark;
+      flake = false;
+    };
+
     org-remark = {
       url = github:nobiot/org-remark;
       flake = false;

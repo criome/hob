@@ -997,6 +997,22 @@
         "type": "github"
       }
     },
+    "obs-StreamFX": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1684567805,
+        "narHash": "sha256-7G+Gcch86ucxJvV08aUeEXL2mtTXC/bdLgz9yXHFEgo=",
+        "owner": "nobiot",
+        "repo": "org-remark",
+        "rev": "41a615c9f865c4c192d074f95b88cf2290cbc971",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nobiot",
+        "repo": "org-remark",
+        "type": "github"
+      }
+    },
     "open-color": {
       "flake": false,
       "locked": {
@@ -1235,6 +1251,7 @@
         "nixpkgs": "nixpkgs",
         "nixpkgs-mozilla": "nixpkgs-mozilla",
         "nvfetcher": "nvfetcher",
+        "obs-StreamFX": "obs-StreamFX",
         "open-color": "open-color",
         "org-remark": "org-remark",
         "page-bird-uniks": "page-bird-uniks",
