@@ -143,7 +143,7 @@
       inputs.nixpkgs-regression.follows = "nixpkgs";
     };
 
-    nixpkgs.url = github:NixOS/nixpkgs;
+    nixpkgs.url = github:NixOS/nixpkgs/nixos-unstable-small;
 
     nixpkgs-mozilla = {
       url = github:mozilla/nixpkgs-mozilla;
@@ -164,11 +164,6 @@
 
     org-remark = {
       url = github:nobiot/org-remark;
-      flake = false;
-    };
-
-    page-bird-uniks = {
-      url = github:laif-zone/bird;
       flake = false;
     };
 
