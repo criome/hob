@@ -80,9 +80,8 @@
     };
 
     home-manager = {
-      url = github:sajban/home-manager/fix-pueue-empty-settings;
+      url = github:nix-community/home-manager;
       inputs.nixpkgs.follows = "nixpkgs";
-      inputs.utils.follows = "flake-utils";
     };
 
     kibord = {
