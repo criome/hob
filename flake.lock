@@ -444,11 +444,11 @@
     "ement-el": {
       "flake": false,
       "locked": {
-        "lastModified": 1688820892,
-        "narHash": "sha256-QtGjOdjDWmnEmXDqmgSdBU/gvLrbj5SoBfzrM0gZwMI=",
+        "lastModified": 1692152386,
+        "narHash": "sha256-/lpvK4kl36I4QijIIA6lLWP2j0rv1enbhQBBuljgLyc=",
         "owner": "alphapapa",
         "repo": "ement.el",
-        "rev": "60e9a50b8a230c00d92f639ba25040944bcda9ab",
+        "rev": "abedcf0d21aa8b1f79e9ef4c275b54b01faf247b",
         "type": "github"
       },
       "original": {

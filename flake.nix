@@ -3,92 +3,92 @@
 
   inputs = {
     arcnmxNixexprs = {
-      url = github:arcnmx/nixexprs;
+      url = "github:arcnmx/nixexprs";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    aski.url = github:sajban/aski;
+    aski.url = "github:sajban/aski";
 
     base16-styles = {
-      url = github:samme/base16-styles;
+      url = "github:samme/base16-styles";
       flake = false;
     };
 
     base16-theme = {
-      url = github:league/base16-emacs;
+      url = "github:league/base16-emacs";
       flake = false;
     };
 
     buttons = {
-      url = github:alexwolfe/Buttons;
+      url = "github:alexwolfe/Buttons";
       flake = false;
     };
 
     crate2nix = {
-      url = github:kolloch/crate2nix;
+      url = "github:kolloch/crate2nix";
       flake = false;
     };
 
     dunst = {
-      url = github:dunst-project/dunst;
+      url = "github:dunst-project/dunst";
       flake = false;
     };
 
     emacs-overlay = {
-      url = github:nix-community/emacs-overlay;
+      url = "github:nix-community/emacs-overlay";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.flake-utils.follows = "flake-utils";
     };
 
     ement-el = {
-      url = github:alphapapa/ement.el;
+      url = "github:alphapapa/ement.el";
       flake = false;
     };
 
     fenix = {
-      url = github:nix-community/fenix;
+      url = "github:nix-community/fenix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
     firn = {
-      url = github:maisiliym/firn/main;
+      url = "github:maisiliym/firn/main";
       flake = false;
     };
 
     flake-compat = {
-      url = github:edolstra/flake-compat;
+      url = "github:edolstra/flake-compat";
       flake = false;
     };
 
     flake-registry = {
-      url = github:NixOS/flake-registry;
+      url = "github:NixOS/flake-registry";
       flake = false;
     };
 
-    flake-utils.url = github:numtide/flake-utils;
+    flake-utils.url = "github:numtide/flake-utils";
 
     flowblade = {
-      url = github:jliljebl/flowblade;
+      url = "github:jliljebl/flowblade";
       flake = false;
     };
 
-    goldragon.url = github:LiGoldragon/goldragon;
+    goldragon.url = "github:LiGoldragon/goldragon";
 
     goldragonWebpage = {
-      url = github:LiGoldragon/webpage;
+      url = "github:LiGoldragon/webpage";
       flake = false;
     };
 
     home-manager = {
-      url = github:nix-community/home-manager;
+      url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
     kibord = {
-      url = github:maisiliym/kibord;
+      url = "github:maisiliym/kibord";
     };
 
-    kriomWebsite.url = github:sajban/website;
+    kriomWebsite.url = "github:sajban/website";
 
     librem5-flash-image = {
       type = "gitlab";
@@ -99,157 +99,157 @@
     };
 
     maisiliym = {
-      url = github:LiGoldragon/maisiliym;
+      url = "github:LiGoldragon/maisiliym";
     };
 
     mach-nix = {
-      url = github:DavHau/mach-nix;
+      url = "github:DavHau/mach-nix";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.flake-utils.follows = "flake-utils";
     };
 
 
     md-roam = {
-      url = github:nobiot/md-roam;
+      url = "github:nobiot/md-roam";
       flake = false;
     };
 
     mfgtools = {
-      url = github:NXPmicro/mfgtools;
+      url = "github:NXPmicro/mfgtools";
       flake = false;
     };
 
-    mkZolaWebsite.url = github:sajban/mkZolaWebsite;
+    mkZolaWebsite.url = "github:sajban/mkZolaWebsite";
 
     naersk = {
-      url = github:nmattia/naersk;
+      url = "github:nmattia/naersk";
       flake = false;
     };
 
     ndi = {
-      url = github:LiGoldragon/ndi;
+      url = "github:LiGoldragon/ndi";
       flake = false;
     };
 
     netresolve = {
-      url = github:crossdistro/netresolve;
+      url = "github:crossdistro/netresolve";
       flake = false;
     };
 
     nix = {
-      url = github:NixOS/nix;
+      url = "github:NixOS/nix";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.nixpkgs-regression.follows = "nixpkgs";
     };
 
-    nixpkgs.url = github:NixOS/nixpkgs/nixos-unstable-small;
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable-small";
 
     nixpkgs-mozilla = {
-      url = github:mozilla/nixpkgs-mozilla;
+      url = "github:mozilla/nixpkgs-mozilla";
       flake = false;
     };
 
-    nvfetcher.url = github:berberman/nvfetcher;
+    nvfetcher.url = "github:berberman/nvfetcher";
 
     open-color = {
-      url = github:yeun/open-color;
+      url = "github:yeun/open-color";
       flake = false;
     };
 
     obs-StreamFX = {
-      url = github:nobiot/org-remark;
+      url = "github:nobiot/org-remark";
       flake = false;
     };
 
     org-remark = {
-      url = github:nobiot/org-remark;
+      url = "github:nobiot/org-remark";
       flake = false;
     };
 
     page-maisiliym-uniks = {
-      url = github:maisiliym/page.maisiliym.uniks;
+      url = "github:maisiliym/page.maisiliym.uniks";
       flake = false;
     };
 
     postcss-scss = {
-      url = github:postcss/postcss-scss;
+      url = "github:postcss/postcss-scss";
       flake = false;
     };
 
     pnpm2nix = {
-      url = github:LavaDesu/pnpm2nix/next;
+      url = "github:LavaDesu/pnpm2nix/next";
       flake = false;
     };
 
     pueue-el = {
-      url = github:xFA25E/pueue;
+      url = "github:xFA25E/pueue";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.emacs-overlay.follows = "emacs-overlay";
     };
 
     ql2nix = {
-      url = github:SquircleSpace/ql2nix;
+      url = "github:SquircleSpace/ql2nix";
       flake = false;
     };
 
     gardevoir = {
-      url = github:krshoss/gardevoir;
+      url = "github:krshoss/gardevoir";
       flake = false;
     };
 
     ron-vim = {
-      url = github:ron-rs/ron.vim;
+      url = "github:ron-rs/ron.vim";
       flake = false;
     };
 
     sajban = {
-      url = github:sajban/sajban;
+      url = "github:sajban/sajban";
       flake = false;
     };
 
-    seahawk.url = github:sajban/seahawk;
+    seahawk.url = "github:sajban/seahawk";
 
     seahawkWebsite = {
-      url = github:AnaSeahawk/website;
+      url = "github:AnaSeahawk/website";
       flake = false;
     };
 
     staticSbcl = {
-      url = github:daewok/sbcl/static-executable-v2;
+      url = "github:daewok/sbcl/static-executable-v2";
       flake = false;
     };
 
     shen = {
-      url = github:sajban/shen;
+      url = "github:sajban/shen";
       flake = false;
     };
 
     shen-mode = {
-      url = github:NHALX/shen-mode;
+      url = "github:NHALX/shen-mode";
       flake = false;
     };
 
     skrips = {
-      url = github:maisiliym/skrips;
+      url = "github:maisiliym/skrips";
     };
 
     toodoo-el = {
-      url = github:ChanderG/toodoo.el;
+      url = "github:ChanderG/toodoo.el";
       flake = false;
     };
 
     tera-mode = {
-      url = github:svavs/tera-mode;
+      url = "github:svavs/tera-mode";
       flake = false;
     };
 
     videocut = {
-      url = github:kanehekili/VideoCut;
+      url = "github:kanehekili/VideoCut";
       flake = false;
     };
 
     xah-fly-keys = {
-      url = github:xahlee/xah-fly-keys;
+      url = "github:xahlee/xah-fly-keys";
       flake = false;
     };
   };
