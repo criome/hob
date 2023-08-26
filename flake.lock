@@ -1481,6 +1481,8 @@
         "shen-mode": "shen-mode",
         "skrips": "skrips",
         "staticSbcl": "staticSbcl",
+        "tdlib": "tdlib",
+        "telega-el": "telega-el",
         "tera-mode": "tera-mode",
         "toodoo-el": "toodoo-el",
         "videocut": "videocut",
@@ -1688,6 +1690,38 @@
       "original": {
         "owner": "nix-systems",
         "repo": "default",
+        "type": "github"
+      }
+    },
+    "tdlib": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1692868864,
+        "narHash": "sha256-ZmO8m+yhmWJLu0H09TcFgJ0E5eWl8/uTIJ3k02M0Y9U=",
+        "owner": "tdlib",
+        "repo": "td",
+        "rev": "470c36ceef780ff6189bbd8e2f889941ca828247",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tdlib",
+        "repo": "td",
+        "type": "github"
+      }
+    },
+    "telega-el": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1692786371,
+        "narHash": "sha256-FV2GQS5DAHocfg1UHX7DuJEXMTBX7x61n3XcFGnu4xc=",
+        "owner": "zevlg",
+        "repo": "telega.el",
+        "rev": "cfc216ac8f8da5f313c1831c23b83cff2fa9301d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "zevlg",
+        "repo": "telega.el",
         "type": "github"
       }
     },

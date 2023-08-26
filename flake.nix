@@ -233,6 +233,16 @@
       url = "github:maisiliym/skrips";
     };
 
+    tdlib = {
+      url = "github:tdlib/td";
+      flake = false;
+    };
+
+    telega-el = {
+      url = "github:zevlg/telega.el";
+      flake = false;
+    };
+
     toodoo-el = {
       url = "github:ChanderG/toodoo.el";
       flake = false;
