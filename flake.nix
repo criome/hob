@@ -142,7 +142,7 @@
       inputs.nixpkgs-regression.follows = "nixpkgs";
     };
 
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable-small";
+    nixpkgs = { type = "indirect"; id = "nixpkgs"; };
 
     nixpkgs-mozilla = {
       url = "github:mozilla/nixpkgs-mozilla";
