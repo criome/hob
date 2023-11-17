@@ -143,6 +143,7 @@
     };
 
     nixpkgs = { type = "indirect"; id = "nixpkgs"; };
+    nixpkgs-master = { type = "indirect"; id = "nixpkgs-master"; };
 
     nixpkgs-mozilla = {
       url = "github:mozilla/nixpkgs-mozilla";
@@ -261,6 +262,11 @@
     xah-fly-keys = {
       url = "github:xahlee/xah-fly-keys";
       flake = false;
+    };
+
+    xdg-desktop-portal-hyprland = {
+      url = "github:hyprwm/xdg-desktop-portal-hyprland";
+      inputs.nixpkgs.follows = "nixpkgs";
     };
   };
 
