@@ -177,6 +177,8 @@
       flake = false;
     };
 
+    pkgss.url = "github:sajban/pkgss";
+
     postcss-scss = {
       url = "github:postcss/postcss-scss";
       flake = false;

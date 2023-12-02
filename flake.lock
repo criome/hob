@@ -1359,6 +1359,24 @@
         "type": "github"
       }
     },
+    "pkgss": {
+      "inputs": {
+        "systemd253": "systemd253"
+      },
+      "locked": {
+        "lastModified": 1701509788,
+        "narHash": "sha256-+DI3n8ugYGeQ13s7yvq/eYONhYwVa7BM9t/RZsbSvOg=",
+        "owner": "sajban",
+        "repo": "pkgss",
+        "rev": "568723da254e3df7e90a5543a6fc90e910487b91",
+        "type": "github"
+      },
+      "original": {
+        "owner": "sajban",
+        "repo": "pkgss",
+        "type": "github"
+      }
+    },
     "pnpm2nix": {
       "flake": false,
       "locked": {
@@ -1541,6 +1559,7 @@
         "open-color": "open-color",
         "org-remark": "org-remark",
         "page-maisiliym-uniks": "page-maisiliym-uniks",
+        "pkgss": "pkgss",
         "pnpm2nix": "pnpm2nix",
         "postcss-scss": "postcss-scss",
         "pueue-el": "pueue-el",
@@ -1733,6 +1752,22 @@
       "original": {
         "owner": "divnix",
         "repo": "std",
+        "type": "github"
+      }
+    },
+    "systemd253": {
+      "locked": {
+        "lastModified": 1694604627,
+        "narHash": "sha256-gBITPajqSn0QNRNO5tTBQ11wFW5hLq2/oTn8hn8gZ9o=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "981538cca38685a5bb4b5794f33505bb64b520ba",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "981538cca38685a5bb4b5794f33505bb64b520ba",
         "type": "github"
       }
     },
