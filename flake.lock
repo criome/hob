@@ -316,11 +316,11 @@
     },
     "coreNixLib": {
       "locked": {
-        "lastModified": 1701492284,
-        "narHash": "sha256-gKCEaRGvKSiX4OtURSbUcfjirnQjDIJoCK68J2575gE=",
+        "lastModified": 1701511913,
+        "narHash": "sha256-CW/Ei9BE/gFcKdK1E4fWOYUDEAYfNexcOaucx+87RIA=",
         "owner": "sajban",
         "repo": "coreNixLib",
-        "rev": "28b775cbfaaf4f95acb1bdfb1ebe6828862d98c7",
+        "rev": "f974aa96f30afe018ae82482f74b72e47a3ac962",
         "type": "github"
       },
       "original": {

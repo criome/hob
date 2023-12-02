@@ -2,8 +2,6 @@
   description = "hob - temporary bootstrap nix flake";
 
   inputs = {
-    coreNixLib.url = "github:sajban/coreNixLib";
-
     arcnmxNixexprs = {
       url = "github:arcnmx/nixexprs";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -277,8 +275,8 @@
     };
   };
 
-  outputs = inputs@ { coreNixLib, ... }: {
+  outputs = inputs: {
     type = "metaHob";
-    value = coreNixLib.core.removeSelf inputs;
+    value = removeAttrs inputs [ "self" ];
   };
 }
