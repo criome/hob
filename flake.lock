@@ -314,6 +314,21 @@
         "type": "github"
       }
     },
+    "coreNixLib": {
+      "locked": {
+        "lastModified": 1701492284,
+        "narHash": "sha256-gKCEaRGvKSiX4OtURSbUcfjirnQjDIJoCK68J2575gE=",
+        "owner": "sajban",
+        "repo": "coreNixLib",
+        "rev": "28b775cbfaaf4f95acb1bdfb1ebe6828862d98c7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "sajban",
+        "repo": "coreNixLib",
+        "type": "github"
+      }
+    },
     "crate2nix": {
       "flake": false,
       "locked": {
@@ -830,6 +845,21 @@
         "type": "github"
       }
     },
+    "lib": {
+      "locked": {
+        "lastModified": 1700959576,
+        "narHash": "sha256-2hoFXToIiGdPzVKKUEUhNuWAvSb0lOfdCvhHhISvb7I=",
+        "owner": "nix-community",
+        "repo": "nixpkgs.lib",
+        "rev": "d00d4561f0601ff5aaacff6d4882513e379ca873",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "nixpkgs.lib",
+        "type": "github"
+      }
+    },
     "librem5-flash-image": {
       "flake": false,
       "locked": {
@@ -1100,16 +1130,18 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1700137144,
-        "narHash": "sha256-QpzVVYdlpGtTNN30/31YSiXyVjy8a8nNk/DPv2g+IM4=",
-        "owner": "NixOS",
+        "lastModified": 1701321653,
+        "narHash": "sha256-e0eQ3RW3BSNDgZrQ4LIT4m/LqHhU04HyMouDHam1O3E=",
+        "owner": "sajban",
         "repo": "nixpkgs",
-        "rev": "2c9f89036cb1dad1419d98945879634fcc8a1ed8",
+        "rev": "12bfe1a0ac0e77542bc74135d1f03951c9b4ca02",
         "type": "github"
       },
       "original": {
-        "id": "nixpkgs",
-        "type": "indirect"
+        "owner": "sajban",
+        "ref": "8Sagittarius5917AM",
+        "repo": "nixpkgs",
+        "type": "github"
       }
     },
     "nixpkgs-master": {
@@ -1473,6 +1505,7 @@
         "base16-styles": "base16-styles",
         "base16-theme": "base16-theme",
         "buttons": "buttons",
+        "coreNixLib": "coreNixLib",
         "crate2nix": "crate2nix",
         "dunst": "dunst",
         "emacs-overlay": "emacs-overlay",
@@ -1489,6 +1522,7 @@
         "home-manager": "home-manager",
         "kibord": "kibord",
         "kriomWebsite": "kriomWebsite",
+        "lib": "lib",
         "librem5-flash-image": "librem5-flash-image",
         "mach-nix": "mach-nix",
         "maisiliym": "maisiliym",

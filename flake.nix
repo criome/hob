@@ -2,6 +2,8 @@
   description = "hob - temporary bootstrap nix flake";
 
   inputs = {
+    coreNixLib.url = "github:sajban/coreNixLib";
+
     arcnmxNixexprs = {
       url = "github:arcnmx/nixexprs";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -90,6 +92,8 @@
 
     kriomWebsite.url = "github:sajban/website";
 
+    lib.url = "github:nix-community/nixpkgs.lib";
+
     librem5-flash-image = {
       type = "gitlab";
       host = "source.puri.sm";
@@ -142,7 +146,8 @@
       inputs.nixpkgs-regression.follows = "nixpkgs";
     };
 
-    nixpkgs = { type = "indirect"; id = "nixpkgs"; };
+    nixpkgs = { url = "github:sajban/nixpkgs/8Sagittarius5917AM"; };
+
     nixpkgs-master = { type = "indirect"; id = "nixpkgs-master"; };
 
     nixpkgs-mozilla = {
@@ -270,13 +275,8 @@
     };
   };
 
-  outputs = inputs@ { self, ... }:
-    let
-      inherit (builtins) removeAttrs;
-      inputsMinusSelf = removeAttrs inputs [ "self" ];
-
-    in
-    {
-      Hob = inputsMinusSelf;
-    };
+  outputs = inputs@ { coreNixLib, ... }: {
+    type = "metaHob";
+    value = coreNixLib.core.removeSelf inputs;
+  };
 }
