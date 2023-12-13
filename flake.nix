@@ -24,13 +24,35 @@
       flake = false;
     };
 
+    clj-nix = {
+      url = "github:jlesquembre/clj-nix";
+      inputs = {
+        nixpkgs.follows = "nixpkgs";
+        devshell.follows = "devshell";
+        nix-fetcher-data.follows = "nix-fetcher-data";
+      };
+    };
+
     crate2nix = {
       url = "github:kolloch/crate2nix";
       flake = false;
     };
 
+    devshell = {
+      url = "github:numtide/devshell";
+      inputs = {
+        nixpkgs.follows = "nixpkgs";
+        systems.follows = "systems";
+      };
+    };
+
     dunst = {
       url = "github:dunst-project/dunst";
+      flake = false;
+    };
+
+    eldev = {
+      url = "github:doublep/eldev";
       flake = false;
     };
 
@@ -58,6 +80,11 @@
     flake-compat = {
       url = "github:edolstra/flake-compat";
       flake = false;
+    };
+
+    flake-parts = {
+      url = "github:hercules-ci/flake-parts";
+      inputs.nixpkgs-lib.follows = "nixpkgs-lib";
     };
 
     flake-registry = {
@@ -90,7 +117,7 @@
 
     kriomWebsite.url = "github:sajban/website";
 
-    lib.url = "github:nix-community/nixpkgs.lib";
+    lib.url = "github:sajban/lib";
 
     librem5-flash-image = {
       type = "gitlab";
@@ -98,6 +125,15 @@
       owner = "Librem5";
       repo = "librem5-flash-image";
       flake = false;
+    };
+
+    lojix = {
+      url = "github:sajban/lojix";
+      inputs = {
+        nixpkgs.follows = "nixpkgs";
+        flake-utils.follows = "flake-utils";
+        clj-nix.follows = "clj-nix";
+      };
     };
 
     maisiliym = {
@@ -145,6 +181,7 @@
     };
 
     nixpkgs = { url = "github:sajban/nixpkgs/8Sagittarius5917AM"; };
+    nixpkgs-lib = { url = "github:sajban/lib/nestedAttribute"; };
 
     nixpkgs-master = { type = "indirect"; id = "nixpkgs-master"; };
 
@@ -170,6 +207,14 @@
       flake = false;
     };
 
+    nix-fetcher-data = {
+      url = "github:sajban/nix-fetcher-data/fixTypo";
+      inputs = {
+        nixpkgs.follows = "nixpkgs";
+        flake-parts.follows = "flake-parts";
+      };
+    };
+
     page-maisiliym-uniks = {
       url = "github:maisiliym/page.maisiliym.uniks";
       flake = false;
@@ -189,8 +234,11 @@
 
     pueue-el = {
       url = "github:xFA25E/pueue";
-      inputs.nixpkgs.follows = "nixpkgs";
-      inputs.emacs-overlay.follows = "emacs-overlay";
+      inputs = {
+        nixpkgs.follows = "nixpkgs";
+        emacs-overlay.follows = "emacs-overlay";
+        eldev.follows = "eldev";
+      };
     };
 
     ql2nix = {
@@ -259,6 +307,9 @@
       flake = false;
     };
 
+    systems.url = "github:nix-systems/default";
+    systems-linux.url = "github:nix-systems/default-linux";
+
     videocut = {
       url = "github:kanehekili/VideoCut";
       flake = false;
@@ -271,7 +322,10 @@
 
     xdg-desktop-portal-hyprland = {
       url = "github:hyprwm/xdg-desktop-portal-hyprland";
-      inputs.nixpkgs.follows = "nixpkgs";
+      inputs = {
+        nixpkgs.follows = "nixpkgs";
+        systems.follows = "systems-linux";
+      };
     };
   };
 
