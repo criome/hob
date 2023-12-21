@@ -33,6 +33,15 @@
       };
     };
 
+    clojure-lsp = {
+      url = "github:clojure-lsp/clojure-lsp";
+      inputs = {
+        nixpkgs.follows = "nixpkgs";
+        flake-utils.follows = "flake-utils";
+        clj-nix.follows = "clj-nix";
+      };
+    };
+
     crate2nix = {
       url = "github:kolloch/crate2nix";
       flake = false;

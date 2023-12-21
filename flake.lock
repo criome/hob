@@ -319,7 +319,9 @@
         "devshell": [
           "devshell"
         ],
-        "nix-fetcher-data": "nix-fetcher-data",
+        "nix-fetcher-data": [
+          "nix-fetcher-data"
+        ],
         "nixpkgs": [
           "nixpkgs"
         ]
@@ -335,6 +337,32 @@
       "original": {
         "owner": "jlesquembre",
         "repo": "clj-nix",
+        "type": "github"
+      }
+    },
+    "clojure-lsp": {
+      "inputs": {
+        "clj-nix": [
+          "clj-nix"
+        ],
+        "flake-utils": [
+          "flake-utils"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1702754443,
+        "narHash": "sha256-RhFZYkHtVaBLaR/+idK3s8Xfv1SYnAlEom3osiIU/Ig=",
+        "owner": "clojure-lsp",
+        "repo": "clojure-lsp",
+        "rev": "4c4705c93edb7e9e23275fc018319f38a66c2881",
+        "type": "github"
+      },
+      "original": {
+        "owner": "clojure-lsp",
+        "repo": "clojure-lsp",
         "type": "github"
       }
     },
@@ -589,42 +617,7 @@
         "type": "github"
       }
     },
-    "flake-part": {
-      "inputs": {
-        "nixpkgs-lib": "nixpkgs-lib"
-      },
-      "locked": {
-        "lastModified": 1685546676,
-        "narHash": "sha256-XDbjJyAg6odX5Vj0Q22iI/gQuFvEkv9kamsSbQ+npaI=",
-        "owner": "hercules-ci",
-        "repo": "flake-parts",
-        "rev": "6ef2707776c6379bc727faf3f83c0dd60b06e0c6",
-        "type": "github"
-      },
-      "original": {
-        "owner": "hercules-ci",
-        "repo": "flake-parts",
-        "type": "github"
-      }
-    },
     "flake-parts": {
-      "inputs": {
-        "nixpkgs-lib": "nixpkgs-lib_2"
-      },
-      "locked": {
-        "lastModified": 1685546676,
-        "narHash": "sha256-XDbjJyAg6odX5Vj0Q22iI/gQuFvEkv9kamsSbQ+npaI=",
-        "owner": "hercules-ci",
-        "repo": "flake-parts",
-        "rev": "6ef2707776c6379bc727faf3f83c0dd60b06e0c6",
-        "type": "github"
-      },
-      "original": {
-        "id": "flake-parts",
-        "type": "indirect"
-      }
-    },
-    "flake-parts_2": {
       "inputs": {
         "nixpkgs-lib": [
           "nixpkgs-lib"
@@ -1213,29 +1206,6 @@
     },
     "nix-fetcher-data": {
       "inputs": {
-        "flake-part": "flake-part",
-        "flake-parts": "flake-parts",
-        "nixpkgs": [
-          "clj-nix",
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1685572850,
-        "narHash": "sha256-lYKEqFG9F84xu51H1rM1u+Ip88cINL0+W26sT+vFEZc=",
-        "owner": "jlesquembre",
-        "repo": "nix-fetcher-data",
-        "rev": "f14967db6c92c79b77419f52c22a698518c91120",
-        "type": "github"
-      },
-      "original": {
-        "owner": "jlesquembre",
-        "repo": "nix-fetcher-data",
-        "type": "github"
-      }
-    },
-    "nix-fetcher-data_2": {
-      "inputs": {
         "flake-parts": [
           "flake-parts"
         ],
@@ -1305,42 +1275,6 @@
       }
     },
     "nixpkgs-lib": {
-      "locked": {
-        "dir": "lib",
-        "lastModified": 1682879489,
-        "narHash": "sha256-sASwo8gBt7JDnOOstnps90K1wxmVfyhsTPPNTGBPjjg=",
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "rev": "da45bf6ec7bbcc5d1e14d3795c025199f28e0de0",
-        "type": "github"
-      },
-      "original": {
-        "dir": "lib",
-        "owner": "NixOS",
-        "ref": "nixos-unstable",
-        "repo": "nixpkgs",
-        "type": "github"
-      }
-    },
-    "nixpkgs-lib_2": {
-      "locked": {
-        "dir": "lib",
-        "lastModified": 1682879489,
-        "narHash": "sha256-sASwo8gBt7JDnOOstnps90K1wxmVfyhsTPPNTGBPjjg=",
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "rev": "da45bf6ec7bbcc5d1e14d3795c025199f28e0de0",
-        "type": "github"
-      },
-      "original": {
-        "dir": "lib",
-        "owner": "NixOS",
-        "ref": "nixos-unstable",
-        "repo": "nixpkgs",
-        "type": "github"
-      }
-    },
-    "nixpkgs-lib_3": {
       "inputs": {
         "nixpkgs": "nixpkgs_3"
       },
@@ -1771,6 +1705,7 @@
         "base16-theme": "base16-theme",
         "buttons": "buttons",
         "clj-nix": "clj-nix",
+        "clojure-lsp": "clojure-lsp",
         "crate2nix": "crate2nix",
         "devshell": "devshell",
         "dunst": "dunst",
@@ -1780,7 +1715,7 @@
         "fenix": "fenix",
         "firn": "firn",
         "flake-compat": "flake-compat",
-        "flake-parts": "flake-parts_2",
+        "flake-parts": "flake-parts",
         "flake-registry": "flake-registry",
         "flake-utils": "flake-utils",
         "flowblade": "flowblade",
@@ -1802,9 +1737,9 @@
         "ndi": "ndi",
         "netresolve": "netresolve",
         "nix": "nix",
-        "nix-fetcher-data": "nix-fetcher-data_2",
+        "nix-fetcher-data": "nix-fetcher-data",
         "nixpkgs": "nixpkgs_2",
-        "nixpkgs-lib": "nixpkgs-lib_3",
+        "nixpkgs-lib": "nixpkgs-lib",
         "nixpkgs-master": "nixpkgs-master",
         "nixpkgs-mozilla": "nixpkgs-mozilla",
         "nvfetcher": "nvfetcher",
