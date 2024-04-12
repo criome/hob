@@ -51,7 +51,6 @@
       url = "github:numtide/devshell";
       inputs = {
         nixpkgs.follows = "nixpkgs";
-        systems.follows = "systems";
       };
     };
 
@@ -126,7 +125,10 @@
 
     kriomWebsite.url = "github:sajban/website";
 
-    lib.url = "github:sajban/lib";
+    lib = {
+      url =  "github:sajban/lib";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
 
     librem5-flash-image = {
       type = "gitlab";
@@ -189,8 +191,12 @@
       inputs.nixpkgs-regression.follows = "nixpkgs";
     };
 
-    nixpkgs = { url = "github:sajban/nixpkgs/8Sagittarius5917AM"; };
-    nixpkgs-lib = { url = "github:sajban/lib/nestedAttribute"; };
+    nixpkgs = { url = "github:NixOS/nixpkgs/nixos-unstable"; };
+
+    nixpkgs-lib = {
+      url = "github:sajban/lib/nestedAttribute";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
 
     nixpkgs-master = { type = "indirect"; id = "nixpkgs-master"; };
 
@@ -217,7 +223,7 @@
     };
 
     nix-fetcher-data = {
-      url = "github:sajban/nix-fetcher-data/fixTypo";
+      url = "github:jlesquembre/nix-fetcher-data";
       inputs = {
         nixpkgs.follows = "nixpkgs";
         flake-parts.follows = "flake-parts";
