@@ -7,7 +7,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    aski.url = "github:sajban/aski";
+    aski.url = "github:criome/aski";
 
     base16-styles = {
       url = "github:samme/base16-styles";
@@ -123,10 +123,10 @@
       url = "github:maisiliym/kibord";
     };
 
-    kriomWebsite.url = "github:sajban/website";
+    criome-website.url = "github:criome/website";
 
     lib = {
-      url =  "github:sajban/lib";
+      url =  "github:criome/lib";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
@@ -139,7 +139,7 @@
     };
 
     lojix = {
-      url = "github:sajban/lojix";
+      url = "github:criome/lojix";
       inputs = {
         nixpkgs.follows = "nixpkgs";
         flake-utils.follows = "flake-utils";
@@ -168,7 +168,7 @@
       flake = false;
     };
 
-    mkZolaWebsite.url = "github:sajban/mkZolaWebsite";
+    mkZolaWebsite.url = "github:criome/mkZolaWebsite";
 
     naersk = {
       url = "github:nmattia/naersk";
@@ -194,7 +194,7 @@
     nixpkgs = { url = "github:NixOS/nixpkgs/nixos-unstable"; };
 
     nixpkgs-lib = {
-      url = "github:sajban/lib/nestedAttribute";
+      url = "github:criome/lib/nestedAttribute";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
@@ -235,7 +235,7 @@
       flake = false;
     };
 
-    pkgss.url = "github:sajban/pkgss";
+    pkgss.url = "github:criome/pkgss";
 
     postcss-scss = {
       url = "github:postcss/postcss-scss";
@@ -272,11 +272,11 @@
     };
 
     sajban = {
-      url = "github:sajban/sajban";
+      url = "github:criome/sajban";
       flake = false;
     };
 
-    seahawk.url = "github:sajban/seahawk";
+    seahawk.url = "github:criome/seahawk";
 
     seahawkWebsite = {
       url = "github:AnaSeahawk/website";
@@ -289,7 +289,7 @@
     };
 
     shen = {
-      url = "github:sajban/shen";
+      url = "github:criome/shen";
       flake = false;
     };
 
