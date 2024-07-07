@@ -7,8 +7,6 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    aski.url = "github:criome/aski";
-
     base16-styles = {
       url = "github:samme/base16-styles";
       flake = false;
@@ -16,11 +14,6 @@
 
     base16-theme = {
       url = "github:league/base16-emacs";
-      flake = false;
-    };
-
-    buttons = {
-      url = "github:alexwolfe/Buttons";
       flake = false;
     };
 
@@ -42,21 +35,11 @@
       };
     };
 
-    crate2nix = {
-      url = "github:kolloch/crate2nix";
-      flake = false;
-    };
-
     devshell = {
       url = "github:numtide/devshell";
       inputs = {
         nixpkgs.follows = "nixpkgs";
       };
-    };
-
-    dunst = {
-      url = "github:dunst-project/dunst";
-      flake = false;
     };
 
     eldev = {
@@ -72,16 +55,6 @@
 
     ement-el = {
       url = "github:alphapapa/ement.el";
-      flake = false;
-    };
-
-    fenix = {
-      url = "github:nix-community/fenix";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-
-    firn = {
-      url = "github:maisiliym/firn/main";
       flake = false;
     };
 
@@ -102,11 +75,6 @@
 
     flake-utils.url = "github:numtide/flake-utils";
 
-    flowblade = {
-      url = "github:jliljebl/flowblade";
-      flake = false;
-    };
-
     goldragon.url = "github:LiGoldragon/goldragon";
 
     goldragonWebpage = {
@@ -126,7 +94,7 @@
     criome-website.url = "github:criome/website";
 
     lib = {
-      url =  "github:criome/lib";
+      url = "github:criome/lib";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
@@ -140,6 +108,7 @@
 
     lojix = {
       url = "github:criome/lojix";
+      flake = false;
       inputs = {
         nixpkgs.follows = "nixpkgs";
         flake-utils.follows = "flake-utils";
@@ -150,13 +119,6 @@
     maisiliym = {
       url = "github:LiGoldragon/maisiliym";
     };
-
-    mach-nix = {
-      url = "github:DavHau/mach-nix";
-      inputs.nixpkgs.follows = "nixpkgs";
-      inputs.flake-utils.follows = "flake-utils";
-    };
-
 
     md-roam = {
       url = "github:nobiot/md-roam";
@@ -170,18 +132,8 @@
 
     mkZolaWebsite.url = "github:criome/mkZolaWebsite";
 
-    naersk = {
-      url = "github:nmattia/naersk";
-      flake = false;
-    };
-
     ndi = {
       url = "github:LiGoldragon/ndi";
-      flake = false;
-    };
-
-    netresolve = {
-      url = "github:crossdistro/netresolve";
       flake = false;
     };
 
@@ -207,17 +159,7 @@
 
     nvfetcher.url = "github:berberman/nvfetcher";
 
-    open-color = {
-      url = "github:yeun/open-color";
-      flake = false;
-    };
-
     obs-StreamFX = {
-      url = "github:nobiot/org-remark";
-      flake = false;
-    };
-
-    org-remark = {
       url = "github:nobiot/org-remark";
       flake = false;
     };
@@ -258,16 +200,6 @@
 
     ql2nix = {
       url = "github:SquircleSpace/ql2nix";
-      flake = false;
-    };
-
-    gardevoir = {
-      url = "github:krshoss/gardevoir";
-      flake = false;
-    };
-
-    ron-vim = {
-      url = "github:ron-rs/ron.vim";
       flake = false;
     };
 
