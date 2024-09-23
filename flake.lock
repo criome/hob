@@ -830,11 +830,11 @@
     },
     "maisiliym": {
       "locked": {
-        "lastModified": 1719259360,
-        "narHash": "sha256-HYCS5Dp8xwK5spe1TmU7GykMjPAM8DipY59N6h3FPFU=",
+        "lastModified": 1727094857,
+        "narHash": "sha256-EJxP2cxQYp33ZXSazIchDI8noOUn9aQgaQhZqoeDyFQ=",
         "owner": "LiGoldragon",
         "repo": "maisiliym",
-        "rev": "013580cfd74b57cdecad772ae19d860307063809",
+        "rev": "7bfe27269e09648583ad35d233d10416ff699b56",
         "type": "github"
       },
       "original": {
