@@ -93,19 +93,6 @@
 
     criome-website.url = "github:criome/website";
 
-    lib = {
-      url = "github:criome/lib";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-
-    librem5-flash-image = {
-      type = "gitlab";
-      host = "source.puri.sm";
-      owner = "Librem5";
-      repo = "librem5-flash-image";
-      flake = false;
-    };
-
     lojix = {
       url = "github:criome/lojix";
       flake = false;
@@ -159,11 +146,6 @@
 
     nvfetcher.url = "github:berberman/nvfetcher";
 
-    obs-StreamFX = {
-      url = "github:nobiot/org-remark";
-      flake = false;
-    };
-
     nix-fetcher-data = {
       url = "github:jlesquembre/nix-fetcher-data";
       inputs = {
@@ -177,15 +159,8 @@
       flake = false;
     };
 
-    pkgss.url = "github:criome/pkgss";
-
     postcss-scss = {
       url = "github:postcss/postcss-scss";
-      flake = false;
-    };
-
-    pnpm2nix = {
-      url = "github:LavaDesu/pnpm2nix/next";
       flake = false;
     };
 
