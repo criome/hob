@@ -93,6 +93,11 @@
 
     criome-website.url = "github:criome/website";
 
+    lib = {
+      url = "github:criome/lib";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
     lojix = {
       url = "github:criome/lojix";
       flake = false;
