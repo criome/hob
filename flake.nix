@@ -2,10 +2,6 @@
   description = "hob - temporary bootstrap nix flake";
 
   inputs = {
-    arcnmxNixexprs = {
-      url = "github:arcnmx/nixexprs";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
 
     base16-styles = {
       url = "github:samme/base16-styles";
@@ -35,6 +31,8 @@
       };
     };
 
+    crane.url = "github:ipetkov/crane";
+
     devshell = {
       url = "github:numtide/devshell";
       inputs = {
@@ -42,20 +40,9 @@
       };
     };
 
-    eldev = {
-      url = "github:doublep/eldev";
-      flake = false;
-    };
-
     emacs-overlay = {
       url = "github:nix-community/emacs-overlay";
       inputs.nixpkgs.follows = "nixpkgs";
-      inputs.flake-utils.follows = "flake-utils";
-    };
-
-    ement-el = {
-      url = "github:alphapapa/ement.el";
-      flake = false;
     };
 
     flake-compat = {
@@ -80,6 +67,16 @@
     goldragonWebpage = {
       url = "github:LiGoldragon/webpage";
       flake = false;
+    };
+
+    helix = {
+      url = "github:helix-editor/helix";
+      inputs = {
+        crane.follows = "crane";
+        nixpkgs.follows = "nixpkgs";
+        flake-utils.follows = "flake-utils";
+        rust-overlay.follows = "rust-overlay";
+      };
     };
 
     home-manager = {
@@ -144,13 +141,6 @@
 
     nixpkgs-master = { type = "indirect"; id = "nixpkgs-master"; };
 
-    nixpkgs-mozilla = {
-      url = "github:mozilla/nixpkgs-mozilla";
-      flake = false;
-    };
-
-    nvfetcher.url = "github:berberman/nvfetcher";
-
     nix-fetcher-data = {
       url = "github:jlesquembre/nix-fetcher-data";
       inputs = {
@@ -159,28 +149,14 @@
       };
     };
 
-    page-maisiliym-uniks = {
-      url = "github:maisiliym/page.maisiliym.uniks";
-      flake = false;
-    };
-
     postcss-scss = {
       url = "github:postcss/postcss-scss";
       flake = false;
     };
 
-    pueue-el = {
-      url = "github:xFA25E/pueue";
-      inputs = {
-        nixpkgs.follows = "nixpkgs";
-        emacs-overlay.follows = "emacs-overlay";
-        eldev.follows = "eldev";
-      };
-    };
-
-    ql2nix = {
-      url = "github:SquircleSpace/ql2nix";
-      flake = false;
+    rust-overlay = {
+      url = "github:oxalica/rust-overlay";
+      inputs.nixpkgs.follows = "nixpkgs";
     };
 
     sajban = {
@@ -192,11 +168,6 @@
 
     seahawkWebsite = {
       url = "github:AnaSeahawk/website";
-      flake = false;
-    };
-
-    staticSbcl = {
-      url = "github:daewok/sbcl/static-executable-v2";
       flake = false;
     };
 
