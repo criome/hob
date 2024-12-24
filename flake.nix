@@ -132,14 +132,14 @@
       inputs.nixpkgs-regression.follows = "nixpkgs";
     };
 
-    nixpkgs = { url = "github:NixOS/nixpkgs/nixos-unstable"; };
+    nixpkgs = {
+      url = "github:NixOS/nixpkgs/nixos-unstable";
+    };
 
     nixpkgs-lib = {
       url = "github:criome/lib/nestedAttribute";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-
-    nixpkgs-master = { type = "indirect"; id = "nixpkgs-master"; };
 
     nix-fetcher-data = {
       url = "github:jlesquembre/nix-fetcher-data";
