@@ -62,8 +62,6 @@
 
     flake-utils.url = "github:numtide/flake-utils";
 
-    goldragon.url = "github:LiGoldragon/goldragon";
-
     goldragonWebpage = {
       url = "github:LiGoldragon/webpage";
       flake = false;
@@ -105,10 +103,6 @@
       };
     };
 
-    maisiliym = {
-      url = "github:LiGoldragon/maisiliym";
-    };
-
     md-roam = {
       url = "github:nobiot/md-roam";
       flake = false;
@@ -132,14 +126,12 @@
       inputs.nixpkgs-regression.follows = "nixpkgs";
     };
 
-    nixpkgs = { url = "github:NixOS/nixpkgs/nixos-unstable"; };
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
     nixpkgs-lib = {
       url = "github:criome/lib/nestedAttribute";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-
-    nixpkgs-master = { type = "indirect"; id = "nixpkgs-master"; };
 
     nix-fetcher-data = {
       url = "github:jlesquembre/nix-fetcher-data";
@@ -163,8 +155,6 @@
       url = "github:criome/sajban";
       flake = false;
     };
-
-    seahawk.url = "github:criome/seahawk";
 
     seahawkWebsite = {
       url = "github:AnaSeahawk/website";
