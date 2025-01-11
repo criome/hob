@@ -84,6 +84,11 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    jujutsu-el = {
+      url = "github:bennyandresen/jujutsu.el";
+      flake = false;
+    };
+
     kibord = {
       url = "github:maisiliym/kibord";
     };
