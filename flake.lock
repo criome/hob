@@ -541,6 +541,22 @@
         "type": "github"
       }
     },
+    "jujutsu-el": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1734385248,
+        "narHash": "sha256-z7rPpAjHL93tmqBLMYQyC8W4pWNVwRit/oAouiJFfUc=",
+        "owner": "bennyandresen",
+        "repo": "jujutsu.el",
+        "rev": "8d40c273a3c74c771a48efa963ed16154f94cfdf",
+        "type": "github"
+      },
+      "original": {
+        "owner": "bennyandresen",
+        "repo": "jujutsu.el",
+        "type": "github"
+      }
+    },
     "kibord": {
       "inputs": {
         "ChibiOS": "ChibiOS",
@@ -918,6 +934,7 @@
         "goldragonWebpage": "goldragonWebpage",
         "helix": "helix",
         "home-manager": "home-manager",
+        "jujutsu-el": "jujutsu-el",
         "kibord": "kibord",
         "lib": "lib",
         "lojix": "lojix",
