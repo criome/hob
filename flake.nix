@@ -138,7 +138,7 @@
     };
 
     nixpkgs = {
-      url = "github:NixOS/nixpkgs/nixos-unstable";
+      url = "github:criome/nixpkgs/testing";
     };
 
     nixpkgs-lib = {
